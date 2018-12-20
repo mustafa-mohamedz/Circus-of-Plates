@@ -47,6 +47,7 @@ public class InitialWorld implements World {
         BufferedImage[] backGround = new BufferedImage[1];
         backGround[0] = img;
         constantObjects.add(new GameObjectImp(backGround,new UnMovable(0,0)));
+        ((GameObjectImp)constantObjects.get(0)).setVisible(true);
         movableObjects = new ArrayList<>();
         controlableObjects = new ArrayList<>();
         controlableObjects.add(Clown.GetClown());
