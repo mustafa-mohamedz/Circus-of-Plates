@@ -16,6 +16,7 @@ import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
 import eg.edu.alexu.csd.oop.game.object.Clown;
 import eg.edu.alexu.csd.oop.game.object.Plate;
 import eg.edu.alexu.csd.oop.game.object.PlateFactory;
+import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingPlatesOnSticks;
 
 public class InitialWorld implements World {
     private List<GameObject> constantObjects;
@@ -97,7 +98,7 @@ public class InitialWorld implements World {
             if (Math.abs(centerOfPlate - centerOfLeftStick) <= 20 && Math.abs(leftMaxY - temp.getY()) <= 5) {
                 leftMaxY -= 10;
                 movableObjects.remove(i);
-                ((Plate) temp).setLeft();
+                ((GameObjectImp) temp).setMovingStrategy(new MovingPlatesOnSticks(temp.getX(), temp.getY(), false));
                 temp.setX(centerOfLeftStick - 25);
                 controlableObjects.add(temp);
                 continue;
@@ -106,7 +107,7 @@ public class InitialWorld implements World {
                     && Math.abs(rightMaxY - temp.getY()) <= 5) {
                 rightMaxY -= 10;
                 movableObjects.remove(i);
-                ((Plate) temp).setRight();
+                ((GameObjectImp) temp).setMovingStrategy(new MovingPlatesOnSticks(temp.getX(), temp.getY(), true));
                 temp.setX(centerOfRightStick - 25);
                 controlableObjects.add(temp);
                 continue;
