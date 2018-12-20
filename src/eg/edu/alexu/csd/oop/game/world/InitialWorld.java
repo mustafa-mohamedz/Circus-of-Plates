@@ -86,7 +86,10 @@ public class InitialWorld implements World {
 
     @Override
     public boolean refresh() {
-        movableObjects.add(plateFactory.getRandomPlate());
+    	if ((int)(Math.random()*2)>0) {
+    		movableObjects.add(plateFactory.getRandomPlate());
+		}
+        
         int centerOfPlate;
         int centerOfLeftStick = controlableObjects.get(0).getX() + 20;
         int centerOfRightStick = controlableObjects.get(0).getX() + controlableObjects.get(0).getWidth() - 20;
