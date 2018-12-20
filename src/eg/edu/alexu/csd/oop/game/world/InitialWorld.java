@@ -50,6 +50,7 @@ public class InitialWorld implements World {
         controlableObjects = new ArrayList<>();
         controlableObjects.add(Clown.GetClown());
         leftMaxY = rightMaxY = img.getHeight() - Clown.GetClown().getHeight();
+        plateFactory = new PlateFactory();
     }
 
     @Override
