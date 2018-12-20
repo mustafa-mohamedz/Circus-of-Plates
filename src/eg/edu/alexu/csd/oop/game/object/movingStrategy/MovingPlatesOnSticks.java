@@ -4,7 +4,7 @@ import eg.edu.alexu.csd.oop.game.world.InitialWorld;
 
 public class MovingPlatesOnSticks extends MovingHorizontal {
 
-	boolean isRight;
+	private boolean isRight;
 
 	public MovingPlatesOnSticks(int x, int y, boolean isRight) {
 		super(x, y);

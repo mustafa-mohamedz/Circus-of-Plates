@@ -17,6 +17,7 @@ import eg.edu.alexu.csd.oop.game.object.Clown;
 import eg.edu.alexu.csd.oop.game.object.Plate;
 import eg.edu.alexu.csd.oop.game.object.PlateFactory;
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingPlatesOnSticks;
+import eg.edu.alexu.csd.oop.game.object.movingStrategy.UnMovable;
 
 public class InitialWorld implements World {
     private List<GameObject> constantObjects;

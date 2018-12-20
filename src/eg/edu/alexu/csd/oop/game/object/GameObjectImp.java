@@ -8,15 +8,11 @@ import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingStrategy;
 
 public class GameObjectImp implements GameObject {
 
-	private int width;
-	private int height;
 	private boolean isVisible;
 	private BufferedImage[] spriteImages;
 	private MovingStrategy movingStrategy;
 	
 	public GameObjectImp(BufferedImage[] spriteImages, MovingStrategy movingStrategy) {
-		this.width = spriteImages[0].getWidth();
-		this.height = spriteImages[0].getHeight();
 		this.spriteImages = spriteImages;
 		this.movingStrategy = movingStrategy;
 	}
@@ -44,12 +40,12 @@ public class GameObjectImp implements GameObject {
 
 	@Override
 	public int getWidth() {
-		return width;
+		return spriteImages[0].getWidth();
 	}
 
 	@Override
 	public int getHeight() {
-		return height;
+		return spriteImages[0].getHeight();
 	}
 	
 	@Override
@@ -70,6 +66,10 @@ public class GameObjectImp implements GameObject {
 	
     public void setMovingStrategy(MovingStrategy movingStrategy) {
 		this.movingStrategy = movingStrategy;
+    }
+    
+    public MovingStrategy getMovingStrategy() {
+    	return this.movingStrategy;
     }
 
 }

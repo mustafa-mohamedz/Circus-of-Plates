@@ -10,7 +10,7 @@ public class FreePlate implements PlateState {
 	private MovingStrategy movingStrategy;
 
 	public FreePlate() {
-		this.movingStrategy = new MovingVertical();
+		//this.movingStrategy = new MovingVertical();
 	}
 
 	@Override
