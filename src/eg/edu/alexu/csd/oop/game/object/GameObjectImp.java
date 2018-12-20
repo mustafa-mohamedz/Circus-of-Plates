@@ -4,21 +4,23 @@ import java.awt.image.BufferedImage;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
 
-public abstract class AbstractGameObject implements GameObject {
+public abstract class GameObjectImp implements GameObject {
 
 	private int x;
 	private int y;
 	private int width;
 	private int height;
 	private boolean isVisible;
+	private BufferedImage[] spriteImages;
 	
-	
-	public AbstractGameObject(int width, int height) {
+	public GameObjectImp(int width, int height, BufferedImage[] spriteImages) {
 		// TODO Auto-generated constructor stub
 		this.width = width;
 		this.height = height;
+		this.spriteImages = spriteImages;
 	}
-	public AbstractGameObject() {
+	
+	public GameObjectImp() {
 		// TODO Auto-generated constructor stub
 	}
 	@Override
@@ -68,6 +70,9 @@ public abstract class AbstractGameObject implements GameObject {
 	}
 	
 	@Override
-	public abstract BufferedImage[] getSpriteImages();
+	public BufferedImage[] getSpriteImages() {
+		return spriteImages;
+		
+	};
 
 }

@@ -1,3 +1,5 @@
+
+
 package eg.edu.alexu.csd.oop.game.object;
 
 import eg.edu.alexu.csd.oop.game.world.InitialWorld;
@@ -10,21 +12,13 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-public class Clown extends AbstractGameObject {
-    public static BufferedImage img;
+public class Clown extends GameObjectImp {
+    //public static BufferedImage img;
 
-    {
-        try {
-            img = ImageIO.read(new File("src/Images/clown.png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public Clown() {
-        super(124, 141);
-        setX(InitialWorld.img.getWidth()/2 - img.getWidth()/2);
-        setY(InitialWorld.img.getHeight() - img.getHeight());
+    private Clown(BufferedImage[] clown) {
+        super(124, 141, clown);
+        setX(InitialWorld.img.getWidth()/2 - 124/2);
+        setY(InitialWorld.img.getHeight() - 141);
         setVisible(true);
     }
 

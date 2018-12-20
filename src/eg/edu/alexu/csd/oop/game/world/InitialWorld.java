@@ -12,7 +12,7 @@ import javax.imageio.ImageIO;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
-import eg.edu.alexu.csd.oop.game.object.AbstractGameObject;
+import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
 import eg.edu.alexu.csd.oop.game.object.Clown;
 import eg.edu.alexu.csd.oop.game.object.Plate;
 
@@ -40,7 +40,7 @@ public class InitialWorld implements World {
         this.height = height;
         this.speed = speed;
         constantObjects = new ArrayList<>();
-        constantObjects.add(new AbstractGameObject(img.getWidth(), img.getHeight()) {
+        constantObjects.add(new GameObjectImp(img.getWidth(), img.getHeight()) {
 
             @Override
             public BufferedImage[] getSpriteImages() {

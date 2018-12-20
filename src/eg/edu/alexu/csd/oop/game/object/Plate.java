@@ -10,7 +10,7 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-public class Plate extends AbstractGameObject {
+public class Plate extends GameObjectImp {
 
     private static int width = 50;
     private static int height = 10;
