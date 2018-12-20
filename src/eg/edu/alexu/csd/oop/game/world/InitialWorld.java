@@ -45,6 +45,7 @@ public class InitialWorld implements World {
         this.speed = speed;
         constantObjects = new ArrayList<>();
         BufferedImage[] backGround = new BufferedImage[1];
+        backGround[0] = img;
         constantObjects.add(new GameObjectImp(backGround,new UnMovable(0,0)));
         movableObjects = new ArrayList<>();
         controlableObjects = new ArrayList<>();
