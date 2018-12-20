@@ -86,7 +86,7 @@ public class InitialWorld implements World {
 
     @Override
     public boolean refresh() {
-    	if ((int)(Math.random()*2)>0) {
+    	if ((int)(Math.random()*4)>2) {
     		movableObjects.add(plateFactory.getRandomPlate());
 		}
         
