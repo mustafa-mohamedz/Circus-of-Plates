@@ -15,6 +15,7 @@ import eg.edu.alexu.csd.oop.game.World;
 import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
 import eg.edu.alexu.csd.oop.game.object.Clown;
 import eg.edu.alexu.csd.oop.game.object.Plate;
+import eg.edu.alexu.csd.oop.game.object.PlateFactory;
 
 public class InitialWorld implements World {
     private List<GameObject> constantObjects;
@@ -26,6 +27,7 @@ public class InitialWorld implements World {
     private int rightMaxY;
     private int leftMaxY;
     public static BufferedImage img;
+    private PlateFactory plateFactory;
 
     static {
         try {
@@ -40,25 +42,12 @@ public class InitialWorld implements World {
         this.height = height;
         this.speed = speed;
         constantObjects = new ArrayList<>();
-        constantObjects.add(new GameObjectImp(img.getWidth(), img.getHeight()) {
-
-            @Override
-            public BufferedImage[] getSpriteImages() {
-                setVisible(true);
-                BufferedImage[] stage = new BufferedImage[1];
-                stage[0] = new BufferedImage(img.getWidth(), img.getHeight(), BufferedImage.TYPE_INT_ARGB);
-                AffineTransform at = new AffineTransform();
-                AffineTransformOp scaleOp = new AffineTransformOp(at, AffineTransformOp.TYPE_BILINEAR);
-                stage[0] = scaleOp.filter(img, stage[0]);
-                return stage;
-            }
-
-
-        });
+        BufferedImage[] backGround = new BufferedImage[1];
+        constantObjects.add(new GameObjectImp(backGround,new UnMovable(0,0)));
         movableObjects = new ArrayList<>();
         controlableObjects = new ArrayList<>();
-        controlableObjects.add(new Clown());
-        leftMaxY = rightMaxY = img.getHeight() - Clown.img.getHeight();
+        controlableObjects.add(Clown.GetClown());
+        leftMaxY = rightMaxY = img.getHeight() - Clown.GetClown().getHeight();
     }
 
     @Override
@@ -92,7 +81,7 @@ public class InitialWorld implements World {
 
     @Override
     public boolean refresh() {
-        movableObjects.add(new Plate((int) (Math.random() * img.getWidth()), 10));
+        movableObjects.add(plateFactory.getRandomPlate());
         int centerOfPlate;
         int centerOfLeftStick = controlableObjects.get(0).getX() + 20;
         int centerOfRightStick = controlableObjects.get(0).getX() + controlableObjects.get(0).getWidth() - 20;
