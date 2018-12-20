@@ -21,7 +21,7 @@ public class Clown extends GameObjectImp {
         setY(InitialWorld.img.getHeight() - 141);
         setVisible(true);
     }
-
+/*
     @Override
     public BufferedImage[] getSpriteImages() {
         // TODO Auto-generated method stub
@@ -35,5 +35,5 @@ public class Clown extends GameObjectImp {
         }
         return clown;
     }
-
+*/
 }
