@@ -12,9 +12,12 @@ import javax.imageio.ImageIO;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
-import eg.edu.alexu.csd.oop.game.object.AbstractGameObject;
+import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
 import eg.edu.alexu.csd.oop.game.object.Clown;
 import eg.edu.alexu.csd.oop.game.object.Plate;
+import eg.edu.alexu.csd.oop.game.object.PlateFactory;
+import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingPlatesOnSticks;
+import eg.edu.alexu.csd.oop.game.object.movingStrategy.UnMovable;
 
 public class InitialWorld implements World {
     private List<GameObject> constantObjects;
@@ -26,6 +29,7 @@ public class InitialWorld implements World {
     private int rightMaxY;
     private int leftMaxY;
     public static BufferedImage img;
+    private PlateFactory plateFactory;
 
     static {
         try {
@@ -40,25 +44,15 @@ public class InitialWorld implements World {
         this.height = height;
         this.speed = speed;
         constantObjects = new ArrayList<>();
-        constantObjects.add(new AbstractGameObject(img.getWidth(), img.getHeight()) {
-
-            @Override
-            public BufferedImage[] getSpriteImages() {
-                setVisible(true);
-                BufferedImage[] stage = new BufferedImage[1];
-                stage[0] = new BufferedImage(img.getWidth(), img.getHeight(), BufferedImage.TYPE_INT_ARGB);
-                AffineTransform at = new AffineTransform();
-                AffineTransformOp scaleOp = new AffineTransformOp(at, AffineTransformOp.TYPE_BILINEAR);
-                stage[0] = scaleOp.filter(img, stage[0]);
-                return stage;
-            }
-
-
-        });
+        BufferedImage[] backGround = new BufferedImage[1];
+        backGround[0] = img;
+        constantObjects.add(new GameObjectImp(backGround,new UnMovable(0,0)));
+        ((GameObjectImp)constantObjects.get(0)).setVisible(true);
         movableObjects = new ArrayList<>();
         controlableObjects = new ArrayList<>();
-        controlableObjects.add(new Clown());
-        leftMaxY = rightMaxY = img.getHeight() - Clown.img.getHeight();
+        controlableObjects.add(Clown.GetClown());
+        leftMaxY = rightMaxY = img.getHeight() - Clown.GetClown().getHeight();
+        plateFactory = new PlateFactory();
     }
 
     @Override
@@ -92,7 +86,10 @@ public class InitialWorld implements World {
 
     @Override
     public boolean refresh() {
-        movableObjects.add(new Plate((int) (Math.random() * img.getWidth()), 10));
+    	if ((int)(Math.random()*4)>2) {
+    		movableObjects.add(plateFactory.getRandomPlate());
+		}
+        
         int centerOfPlate;
         int centerOfLeftStick = controlableObjects.get(0).getX() + 20;
         int centerOfRightStick = controlableObjects.get(0).getX() + controlableObjects.get(0).getWidth() - 20;
@@ -108,7 +105,7 @@ public class InitialWorld implements World {
             if (Math.abs(centerOfPlate - centerOfLeftStick) <= 20 && Math.abs(leftMaxY - temp.getY()) <= 5) {
                 leftMaxY -= 10;
                 movableObjects.remove(i);
-                ((Plate) temp).setLeft();
+                ((GameObjectImp) temp).setMovingStrategy(new MovingPlatesOnSticks(temp.getX(), temp.getY(), false));
                 temp.setX(centerOfLeftStick - 25);
                 controlableObjects.add(temp);
                 continue;
@@ -117,7 +114,7 @@ public class InitialWorld implements World {
                     && Math.abs(rightMaxY - temp.getY()) <= 5) {
                 rightMaxY -= 10;
                 movableObjects.remove(i);
-                ((Plate) temp).setRight();
+                ((GameObjectImp) temp).setMovingStrategy(new MovingPlatesOnSticks(temp.getX(), temp.getY(), true));
                 temp.setX(centerOfRightStick - 25);
                 controlableObjects.add(temp);
                 continue;
