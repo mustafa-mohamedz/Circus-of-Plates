@@ -52,11 +52,6 @@ public class GameObjectImp implements GameObject {
 		return height;
 	}
 	
-	//TODO not in interface
-	public void setVisible(boolean visible) {
-		isVisible = visible;
-	}
-	
 	@Override
 	public boolean isVisible() {
 		return isVisible;
@@ -67,5 +62,14 @@ public class GameObjectImp implements GameObject {
 		return spriteImages;
 
 	};
+	
+	//TODO not in interface
+	public void setVisible(boolean visible) {
+		isVisible = visible;
+	}
+	
+    public void setMovingStrategy(MovingStrategy movingStrategy) {
+		this.movingStrategy = movingStrategy;
+    }
 
 }
