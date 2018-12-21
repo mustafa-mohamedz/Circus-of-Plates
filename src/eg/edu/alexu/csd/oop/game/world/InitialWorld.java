@@ -44,6 +44,7 @@ public class InitialWorld implements World {
 
     public InitialWorld(int width, int height, int speed, Observable observable) {
     	this.observable = observable;
+    	observable.add(this);
         this.width = width;
         this.height = height;
         this.speed = speed;
