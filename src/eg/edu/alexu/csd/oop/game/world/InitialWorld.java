@@ -14,8 +14,8 @@ import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
 import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
 import eg.edu.alexu.csd.oop.game.object.Clown;
-import eg.edu.alexu.csd.oop.game.object.Plate;
 import eg.edu.alexu.csd.oop.game.object.PlateFactory;
+import eg.edu.alexu.csd.oop.game.object.PrototypeModule;
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingPlatesOnSticks;
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.UnMovable;
 
@@ -89,6 +89,7 @@ public class InitialWorld implements World {
     	if ((int)(Math.random()*4)>2) {
     		movableObjects.add(plateFactory.getRandomPlate());
 		}
+    	
         
         int centerOfPlate;
         int centerOfLeftStick = controlableObjects.get(0).getX() + 20;
@@ -132,7 +133,7 @@ public class InitialWorld implements World {
     @Override
     public int getSpeed() {
         // TODO Auto-generated method stub
-        return 30;
+        return 50;
     }
 
     @Override
@@ -140,5 +141,6 @@ public class InitialWorld implements World {
         // TODO Auto-generated method stub
         return 10;
     }
+   
 
 }

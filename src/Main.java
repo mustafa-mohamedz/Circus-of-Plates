@@ -26,6 +26,7 @@ public class Main {
 		menu.add(pauseMenuItem);
 		menu.add(resumeMenuItem);
 		menuBar.add(menu);
+		
 		// TODO Auto-generated method stub
 		GameEngine.start("ayhabd", new InitialWorld(InitialWorld.img.getWidth(), InitialWorld.img.getHeight(), 100), menuBar, Color.BLACK);
 	}

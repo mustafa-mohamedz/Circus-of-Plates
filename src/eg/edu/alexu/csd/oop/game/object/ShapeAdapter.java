@@ -54,4 +54,18 @@ public class ShapeAdapter implements GameObject {
 		return shape.getSpriteImages();
 	}
 
+	@Override
+	public GameObject clone() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
 }
