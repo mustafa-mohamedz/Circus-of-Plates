@@ -10,8 +10,8 @@ import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingVertical;
 import eg.edu.alexu.csd.oop.game.world.InitialWorld;
 
 public class PlateFactory {
-	private BufferedImage [][] plateImages;
-	private String [] colors;
+	protected static BufferedImage [][] plateImages;
+	protected static int colorId;
 	public PlateFactory() {
 		try {
 			BufferedImage red = ImageIO.read(new File("src/Images/redplate.png"));
@@ -21,18 +21,24 @@ public class PlateFactory {
 			plateImages[0][0] = red;
 			plateImages[1][0] = blue;
 			plateImages[2][0] = green;
-			colors = new String[]{"red","blue","green"};
+			colorId = (int) (Math.random()*3);
+			initializeProtoTypes(colorId);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
-	public Plate getRandomPlate() {
-		int colorId = (int) (Math.random()*3);
-		Plate RandomPlate = new Plate(plateImages[colorId],new MovingVertical((int) (Math.random()*InitialWorld.img.getWidth()), 10));
-		RandomPlate.SetColor(colors[colorId]);
-		return RandomPlate;
+	public GameObjectImp getRandomPlate() {
+		GameObjectImp RandomPlate =  PrototypeModule.createPrototype("Plate");
+		return  RandomPlate;
 	}
+	
+	 public void initializeProtoTypes(int colorId) {
+	    	PrototypeModule.addPrototype(new ClonablePlate(plateImages[colorId],new MovingVertical((int) (Math.random()*InitialWorld.img.getWidth()), 10)));
+	    	
+	    	
+	    }
+	    
 	
 
 }

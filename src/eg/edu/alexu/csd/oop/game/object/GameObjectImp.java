@@ -9,8 +9,8 @@ import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingStrategy;
 public class GameObjectImp implements GameObject {
 
 	private boolean isVisible;
-	private BufferedImage[] spriteImages;
-	private MovingStrategy movingStrategy;
+	protected BufferedImage[] spriteImages;
+	protected MovingStrategy movingStrategy;
 	
 	public GameObjectImp(BufferedImage[] spriteImages, MovingStrategy movingStrategy) {
 		this.spriteImages = spriteImages;
@@ -72,4 +72,17 @@ public class GameObjectImp implements GameObject {
     	return this.movingStrategy;
     }
 
+	@Override
+	public GameObject clone() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
 }
