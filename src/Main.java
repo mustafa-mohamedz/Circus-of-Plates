@@ -9,7 +9,6 @@ import javax.swing.JMenuItem;
 
 import eg.edu.alexu.csd.oop.game.GameEngine;
 import eg.edu.alexu.csd.oop.game.GameEngine.GameController;
-import eg.edu.alexu.csd.oop.game.object.Plate;
 import eg.edu.alexu.csd.oop.game.world.InitialWorld;
 
 public class Main {
