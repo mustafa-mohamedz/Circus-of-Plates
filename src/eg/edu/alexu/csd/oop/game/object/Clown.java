@@ -14,13 +14,32 @@ import javax.imageio.ImageIO;
 
 public class Clown extends GameObjectImp {
 	private static Clown singleClown;
+	private int rightMaxY;
+
+	public int getRightMaxY() {
+		return rightMaxY;
+	}
+
+	public void setRightMaxY(int rightMaxY) {
+		this.rightMaxY = rightMaxY;
+	}
+
+	public int getLeftMaxY() {
+		return leftMaxY;
+	}
+
+	public void setLeftMaxY(int leftMaxY) {
+		this.leftMaxY = leftMaxY;
+	}
+
+	private int leftMaxY;
 	
     private Clown(BufferedImage[] clown, MovingStrategy movingStrategy) {
         super(clown, movingStrategy);
         setVisible(true);
     }
 
-	public static Clown GetClown() {
+	public static Clown getClown() {
 		if (singleClown == null) {
 	   		 BufferedImage[] clown = new BufferedImage[1];
 		        try {
@@ -36,4 +55,13 @@ public class Clown extends GameObjectImp {
 		}
 		return singleClown;
 	}
+
+	public int getRightStickX() {
+		return singleClown.getX() + singleClown.getWidth() - 20;
+	}
+
+	public int getLeftStickX() {
+		return singleClown.getX() + 20;
+	}
+
 }

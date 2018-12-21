@@ -19,8 +19,8 @@ public class PlateFactory {
 			BufferedImage green = ImageIO.read(new File("src/Images/greenplate.png"));
 			plateImages = new BufferedImage[3][1];
 			plateImages[0][0] = red;
-			plateImages[1][0] = blue;
-			plateImages[2][0] = green;
+			plateImages[1][0] = green;
+			plateImages[2][0] = blue;
 			colorId = (int) (Math.random()*3);
 			initializeProtoTypes(colorId);
 		} catch (IOException e) {
@@ -29,12 +29,12 @@ public class PlateFactory {
 		}
 	}
 	public GameObjectImp getRandomPlate() {
-		GameObjectImp RandomPlate =  PrototypeModule.createPrototype("Plate");
+		GameObjectImp RandomPlate =  PrototypeModule.clonePrototype("Plate");
 		return  RandomPlate;
 	}
 	
 	 public void initializeProtoTypes(int colorId) {
-	    	PrototypeModule.addPrototype(new ClonablePlate(plateImages[colorId],new MovingVertical((int) (Math.random()*InitialWorld.img.getWidth()), 10)));
+	    	PrototypeModule.addPrototype(new Plate(plateImages[colorId], colorId, new MovingVertical((int) (Math.random()*InitialWorld.img.getWidth()), 10)));
 	  
 	 }
 	    

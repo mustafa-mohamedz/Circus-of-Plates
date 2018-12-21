@@ -16,5 +16,4 @@ public interface GameObject extends Cloneable{
 	boolean isVisible();
 	/** @return object movement frames */
 	java.awt.image.BufferedImage[] getSpriteImages();
-	String getName();
 }

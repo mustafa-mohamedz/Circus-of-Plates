@@ -8,87 +8,81 @@ import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingStrategy;
 
 public class GameObjectImp implements GameObject {
 
-	private boolean isVisible;
-	protected BufferedImage[] spriteImages;
-	protected MovingStrategy movingStrategy;
-	
-	public GameObjectImp(BufferedImage[] spriteImages, MovingStrategy movingStrategy) {
-		this.spriteImages = spriteImages;
-		this.movingStrategy = movingStrategy;
-	}
-	
-	@Override
-	public int getX() {
-		return movingStrategy.getX();
-	}
+    private boolean isVisible;
+    protected BufferedImage[] spriteImages;
+    protected MovingStrategy movingStrategy;
 
-	@Override
-	public void setX(int x) {
-		movingStrategy.setX(x);
-	}
+    public GameObjectImp(BufferedImage[] spriteImages, MovingStrategy movingStrategy) {
+        this.spriteImages = spriteImages;
+        this.movingStrategy = movingStrategy;
+    }
 
-	@Override
-	public int getY() {
-		return movingStrategy.getY();
-	}
+    @Override
+    public int getX() {
+        return movingStrategy.getX();
+    }
 
-	@Override
-	public void setY(int y) {
-		movingStrategy.setY(y);
+    @Override
+    public void setX(int x) {
+        movingStrategy.setX(x);
+    }
 
-	}
+    @Override
+    public int getY() {
+        return movingStrategy.getY();
+    }
 
-	@Override
-	public int getWidth() {
-		return spriteImages[0].getWidth();
-	}
+    @Override
+    public void setY(int y) {
+        movingStrategy.setY(y);
 
-	@Override
-	public int getHeight() {
-		return spriteImages[0].getHeight();
-	}
-	
-	@Override
-	public boolean isVisible() {
-		return isVisible;
-	}
-	
-	@Override
-	public BufferedImage[] getSpriteImages() {
-		return spriteImages;
+    }
 
-	};
-	
-	//TODO not in interface
-	public void setVisible(boolean visible) {
-		isVisible = visible;
-	}
-	
+    @Override
+    public int getWidth() {
+        return spriteImages[0].getWidth();
+    }
+
+    @Override
+    public int getHeight() {
+        return spriteImages[0].getHeight();
+    }
+
+    @Override
+    public boolean isVisible() {
+        return isVisible;
+    }
+
+    @Override
+    public BufferedImage[] getSpriteImages() {
+        return spriteImages;
+
+    }
+
+    ;
+
+    //TODO not in interface
+    public void setVisible(boolean visible) {
+        isVisible = visible;
+    }
+
     public void setMovingStrategy(MovingStrategy movingStrategy) {
-		this.movingStrategy = movingStrategy;
+        this.movingStrategy = movingStrategy;
     }
-    
+
     public MovingStrategy getMovingStrategy() {
-    	return this.movingStrategy;
+        return this.movingStrategy;
     }
 
-	@Override
-	public GameObject clone() {
-		// TODO Auto-generated method stub
-		try {
-			return (GameObject) super.clone();
-			} catch (CloneNotSupportedException e) {
-			
-			throw new InternalError();
-			} 
-		}
-	
+    @Override
+    public GameObject clone() {
+        // TODO Auto-generated method stub
+        try {
+            return (GameObject) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new InternalError();
+        }
+    }
 
-	@Override
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
-	
 }

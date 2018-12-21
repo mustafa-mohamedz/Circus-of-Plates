@@ -60,12 +60,6 @@ public class ShapeAdapter implements GameObject {
 		return null;
 	}
 
-	@Override
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
-	
 
 }

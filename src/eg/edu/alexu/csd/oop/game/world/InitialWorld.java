@@ -1,22 +1,19 @@
 package eg.edu.alexu.csd.oop.game.world;
 
-import java.awt.geom.AffineTransform;
-import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.sql.Time;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.imageio.ImageIO;
 
+import com.sun.webkit.Timer;
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
-import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
-import eg.edu.alexu.csd.oop.game.object.Observable;
-import eg.edu.alexu.csd.oop.game.object.Clown;
-import eg.edu.alexu.csd.oop.game.object.PlateFactory;
-import eg.edu.alexu.csd.oop.game.object.PrototypeModule;
+import eg.edu.alexu.csd.oop.game.object.*;
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingPlatesOnSticks;
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.UnMovable;
 
@@ -24,13 +21,16 @@ public class InitialWorld implements World {
     private List<GameObject> constantObjects;
     private List<GameObject> movableObjects;
     private List<GameObject> controlableObjects;
+    private List<GameObject> onRightStick;
+    private List<GameObject> onLeftStick;
+
     private Observable observable;
     private int width;
     private int height;
     private int speed;
     private int score;
-    private int rightMaxY;
-    private int leftMaxY;
+    private long time;
+
     public static BufferedImage img;
     private PlateFactory plateFactory;
 
@@ -43,20 +43,24 @@ public class InitialWorld implements World {
     }
 
     public InitialWorld(int width, int height, int speed, Observable observable) {
-    	this.observable = observable;
-    	this.observable.add(this);
+        time = System.currentTimeMillis();
+        this.observable = observable;
+        this.observable.add(this);
         this.width = width;
         this.height = height;
         this.speed = speed;
         constantObjects = new ArrayList<>();
         BufferedImage[] backGround = new BufferedImage[1];
         backGround[0] = img;
-        constantObjects.add(new GameObjectImp(backGround,new UnMovable(0,0)));
-        ((GameObjectImp)constantObjects.get(0)).setVisible(true);
+        constantObjects.add(new GameObjectImp(backGround, new UnMovable(0, 0)));
+        ((GameObjectImp) constantObjects.get(0)).setVisible(true);
         movableObjects = new ArrayList<>();
         controlableObjects = new ArrayList<>();
-        controlableObjects.add(Clown.GetClown());
-        leftMaxY = rightMaxY = img.getHeight() - Clown.GetClown().getHeight();
+        onLeftStick = new ArrayList<>();
+        onRightStick = new ArrayList<>();
+        controlableObjects.add(Clown.getClown());
+        Clown.getClown().setLeftMaxY(img.getHeight() - Clown.getClown().getHeight());
+        Clown.getClown().setRightMaxY(img.getHeight() - Clown.getClown().getHeight());
         plateFactory = new PlateFactory();
     }
 
@@ -91,39 +95,52 @@ public class InitialWorld implements World {
 
     @Override
     public boolean refresh() {
-    	if ((int)(Math.random()*4)>2) {
-    		movableObjects.add(plateFactory.getRandomPlate());
-		}
-    	
-        
+        if ((int) (Math.random() * 4) > 2) {
+            movableObjects.add(plateFactory.getRandomPlate());
+        }
+
+
         int centerOfPlate;
         int centerOfLeftStick = controlableObjects.get(0).getX() + 20;
         int centerOfRightStick = controlableObjects.get(0).getX() + controlableObjects.get(0).getWidth() - 20;
 
         for (int i = 0; i < movableObjects.size(); i++) {
-            GameObject temp = movableObjects.get(i);
-            temp.setY(temp.getY() + 10);
-            centerOfPlate = temp.getX() + temp.getWidth() / 2;
-            if (temp.getY() >= img.getHeight()) {
+            GameObject tmp = movableObjects.get(i);
+            tmp.setY(tmp.getY() + 10);
+            centerOfPlate = tmp.getX() + tmp.getWidth() / 2;
+            if (tmp.getY() >= img.getHeight()) {
                 movableObjects.remove(i);
                 continue;
             }
-            if (Math.abs(centerOfPlate - centerOfLeftStick) <= 20 && Math.abs(leftMaxY - temp.getY()) <= 5) {
-                leftMaxY -= 10;
+            if (Math.abs(centerOfPlate - centerOfLeftStick) <= 20 && Math.abs(Clown.getClown().getLeftMaxY() - tmp.getY()) <= 5) {
+                Clown.getClown().setLeftMaxY(Clown.getClown().getLeftMaxY() - 10);
                 movableObjects.remove(i);
-                ((GameObjectImp) temp).setMovingStrategy(new MovingPlatesOnSticks(temp.getX(), temp.getY(), false));
-                temp.setX(centerOfLeftStick - 25);
-                controlableObjects.add(temp);
-                continue;
-            }
-            if (Math.abs(centerOfPlate - centerOfRightStick) <= 20
-                    && Math.abs(rightMaxY - temp.getY()) <= 5) {
-                rightMaxY -= 10;
+                ((GameObjectImp) tmp).setMovingStrategy(new MovingPlatesOnSticks(tmp.getX(), tmp.getY(), false));
+                tmp.setX(centerOfLeftStick - 25);
+                ((MovableObject) tmp).setPositionRight(false);
+                controlableObjects.add(tmp);
+                onLeftStick.add(tmp);
+                if (observable.setScore(onLeftStick)) {
+                    for (int j = 0; j < 3; j++) {
+                        controlableObjects.remove(onLeftStick.remove(onLeftStick.size() - 1));
+                        Clown.getClown().setLeftMaxY(Clown.getClown().getLeftMaxY() + 10);
+                    }
+                }
+            } else if (Math.abs(centerOfPlate - centerOfRightStick) <= 20
+                    && Math.abs(Clown.getClown().getRightMaxY() - tmp.getY()) <= 5) {
+                Clown.getClown().setRightMaxY(Clown.getClown().getRightMaxY() - 10);
                 movableObjects.remove(i);
-                ((GameObjectImp) temp).setMovingStrategy(new MovingPlatesOnSticks(temp.getX(), temp.getY(), true));
-                temp.setX(centerOfRightStick - 25);
-                controlableObjects.add(temp);
-                continue;
+                ((GameObjectImp) tmp).setMovingStrategy(new MovingPlatesOnSticks(tmp.getX(), tmp.getY(), true));
+                tmp.setX(centerOfRightStick - 25);
+                ((MovableObject) tmp).setPositionRight(true);
+                controlableObjects.add(tmp);
+                onRightStick.add(tmp);
+                if (observable.setScore(onRightStick)) {
+                    for (int j = 0; j < 3; j++) {
+                        controlableObjects.remove(onRightStick.remove(onRightStick.size() - 1));
+                        Clown.getClown().setRightMaxY(Clown.getClown().getRightMaxY() + 10);
+                    }
+                }
             }
         }
         return true;
@@ -132,7 +149,7 @@ public class InitialWorld implements World {
     @Override
     public String getStatus() {
         // TODO Auto-generated method stub
-        return "Score = " + 0 + "   |   Time = 0";
+        return "Score = " + score + "   |   Time = " + (60 - (System.currentTimeMillis() - time) / 1000);
     }
 
     @Override
@@ -147,11 +164,11 @@ public class InitialWorld implements World {
         return 10;
     }
 
-	@Override
-	public void update(int score) {
-		// TODO Auto-generated method stub
-		this.score = score;
-	}
-   
+    @Override
+    public void update(int score) {
+        // TODO Auto-generated method stub
+        this.score = score;
+    }
+
 
 }

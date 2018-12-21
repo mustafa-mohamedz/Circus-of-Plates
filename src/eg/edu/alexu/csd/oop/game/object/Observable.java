@@ -3,7 +3,9 @@ package eg.edu.alexu.csd.oop.game.object;
 import java.util.ArrayList;
 import java.util.List;
 
+import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
+import org.omg.CORBA.portable.ObjectImpl;
 
 public class Observable {
 	private List<World> observers = new ArrayList<>(); 
@@ -19,14 +21,29 @@ public class Observable {
 	public int getScore() {
 		return this.score;
 	}
-	public void setScore() {
-		execute();
+	public boolean setScore(List<GameObject> list) {
+		boolean isChanged  = execute(list);
 		notifyObservers();
+		return isChanged;
 	}
-	public void execute(){
+	public boolean execute(List<GameObject> list){
 		// Iterator Pattern
-		
-		
+		Iterator objectIterator = new ObjectIterator(list);
+		if(list.size() == 0) return false;
+		int counter = 1;
+		MovableObject firstElement = (MovableObject) objectIterator.next();
+		String currentColor = firstElement.getColor();
+
+		while (objectIterator.hasNext()) {
+			MovableObject object = (MovableObject) objectIterator.next();
+			if (object.getColor().equals(currentColor)) counter++;
+			else break;
+		}
+		if(counter == 3) {
+			score++;
+			return true;
+		}
+		return false;
 	}
 	public void notifyObservers(){
 		for(World w : observers) {

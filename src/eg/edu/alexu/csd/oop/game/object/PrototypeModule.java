@@ -11,9 +11,9 @@ public class PrototypeModule {
 		prototypes.add(p);
 	}
 
-	public static GameObjectImp createPrototype(String name) {
+	public static GameObjectImp clonePrototype(String name) {
 		for (GameObjectImp p : prototypes) {
-			if (p.getName().equals(name)) {
+			if (((MovableObject)p).getName().equals(name)) {
 				return (GameObjectImp) p.clone();
 			}
 		}
