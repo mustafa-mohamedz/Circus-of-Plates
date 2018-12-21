@@ -1,7 +1,7 @@
 package eg.edu.alexu.csd.oop.game;
 
 
-public interface GameObject {
+public interface GameObject extends Cloneable{
 	/** setter/getter for X position*/
 	int getX();
 	void setX(int x);
@@ -16,6 +16,5 @@ public interface GameObject {
 	boolean isVisible();
 	/** @return object movement frames */
 	java.awt.image.BufferedImage[] getSpriteImages();
-	GameObject clone();
 	String getName();
 }
