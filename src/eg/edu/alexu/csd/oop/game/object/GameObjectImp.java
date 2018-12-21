@@ -75,8 +75,14 @@ public class GameObjectImp implements GameObject {
 	@Override
 	public GameObject clone() {
 		// TODO Auto-generated method stub
-		return null;
-	}
+		try {
+			return (GameObject) super.clone();
+			} catch (CloneNotSupportedException e) {
+			
+			throw new InternalError();
+			} 
+		}
+	
 
 	@Override
 	public String getName() {
