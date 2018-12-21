@@ -25,6 +25,8 @@ public interface World {
 	int getSpeed();
 	/** @return frequency of receiving user input */
 	int getControlSpeed();
+	void update(int score);
+	
 	}
 
 

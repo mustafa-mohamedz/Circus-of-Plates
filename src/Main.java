@@ -9,6 +9,7 @@ import javax.swing.JMenuItem;
 
 import eg.edu.alexu.csd.oop.game.GameEngine;
 import eg.edu.alexu.csd.oop.game.GameEngine.GameController;
+import eg.edu.alexu.csd.oop.game.object.Observable;
 import eg.edu.alexu.csd.oop.game.world.InitialWorld;
 
 public class Main {
@@ -27,7 +28,7 @@ public class Main {
 		menuBar.add(menu);
 		
 		// TODO Auto-generated method stub
-		GameEngine.start("ayhabd", new InitialWorld(InitialWorld.img.getWidth(), InitialWorld.img.getHeight(), 100), menuBar, Color.BLACK);
+		GameEngine.start("ayhabd", new InitialWorld(InitialWorld.img.getWidth(), InitialWorld.img.getHeight(), 100, new Observable()), menuBar, Color.BLACK);
 	}
 
 }

@@ -13,6 +13,7 @@ import javax.imageio.ImageIO;
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
 import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
+import eg.edu.alexu.csd.oop.game.object.Observable;
 import eg.edu.alexu.csd.oop.game.object.Clown;
 import eg.edu.alexu.csd.oop.game.object.PlateFactory;
 import eg.edu.alexu.csd.oop.game.object.PrototypeModule;
@@ -23,9 +24,11 @@ public class InitialWorld implements World {
     private List<GameObject> constantObjects;
     private List<GameObject> movableObjects;
     private List<GameObject> controlableObjects;
+    private Observable observable;
     private int width;
     private int height;
     private int speed;
+    private int score;
     private int rightMaxY;
     private int leftMaxY;
     public static BufferedImage img;
@@ -39,7 +42,8 @@ public class InitialWorld implements World {
         }
     }
 
-    public InitialWorld(int width, int height, int speed) {
+    public InitialWorld(int width, int height, int speed, Observable observable) {
+    	this.observable = observable;
         this.width = width;
         this.height = height;
         this.speed = speed;
@@ -141,6 +145,12 @@ public class InitialWorld implements World {
         // TODO Auto-generated method stub
         return 10;
     }
+
+	@Override
+	public void update(int score) {
+		// TODO Auto-generated method stub
+		this.score = score;
+	}
    
 
 }

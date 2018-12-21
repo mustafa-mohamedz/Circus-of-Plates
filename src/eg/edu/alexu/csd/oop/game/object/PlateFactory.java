@@ -35,9 +35,8 @@ public class PlateFactory {
 	
 	 public void initializeProtoTypes(int colorId) {
 	    	PrototypeModule.addPrototype(new ClonablePlate(plateImages[colorId],new MovingVertical((int) (Math.random()*InitialWorld.img.getWidth()), 10)));
-	    	
-	    	
-	    }
+	  
+	 }
 	    
 	
 
