@@ -9,6 +9,7 @@ public class Background extends GameObjectImp {
 	public Background(BufferedImage[] spriteImages) {
 		super(spriteImages);
 		this.movingStrategy = new UnMovable(0, 0);
+		setVisible(true);
 	}
 
 }
