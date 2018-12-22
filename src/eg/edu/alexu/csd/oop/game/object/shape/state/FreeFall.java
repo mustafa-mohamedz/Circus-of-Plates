@@ -4,7 +4,7 @@ import eg.edu.alexu.csd.oop.game.object.Clown;
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingVertical;
 import eg.edu.alexu.csd.oop.game.world.InitialWorld;
 
-public class FreeFall extends ShapeStateImp {
+public class FreeFall extends AbstractShapeState {
 
 	public FreeFall() {
 		super(new MovingVertical((int) (Math.random() * InitialWorld.img.getWidth()), 10));
@@ -29,7 +29,7 @@ public class FreeFall extends ShapeStateImp {
 			setX(centerOfRightStick - 25);
 			return new OnStickState(State.ONRIGHTSTICK, movingStrategy);
 		}else if (getY() > InitialWorld.img.getHeight()) {
-			return new OutOfBoundries();
+			return new OutOfBoundries(null);
 		}
 
 		return this;

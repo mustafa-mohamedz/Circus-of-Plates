@@ -3,11 +3,11 @@ package eg.edu.alexu.csd.oop.game.object.shape.state;
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingStrategy;
 
 
-public abstract class ShapeStateImp implements ShapeState {
+public abstract class AbstractShapeState implements ShapeState {
 	
 	protected MovingStrategy movingStrategy;
 	
-	public ShapeStateImp(MovingStrategy movingStrategy) {
+	public AbstractShapeState(MovingStrategy movingStrategy) {
 		this.movingStrategy = movingStrategy;
 	}
 	

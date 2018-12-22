@@ -1,35 +1,21 @@
 package eg.edu.alexu.csd.oop.game.object.shape.state;
 
-public class OutOfBoundries implements ShapeState {
+import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingStrategy;
 
-	@Override
-	public int getX() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+public class OutOfBoundries extends AbstractShapeState {
 
-	@Override
-	public void setX(int x) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public int getY() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void setY(int y) {
-		// TODO Auto-generated method stub
-
+	public OutOfBoundries(MovingStrategy movingStrategy) {
+		super(movingStrategy);
 	}
 
 	@Override
 	public ShapeState goNextState() {
-		// TODO Auto-generated method stub
-		return null;
+		return this;
+	}
+
+	@Override
+	public State getState() {
+		return State.OUTOFBOUNDRIES;
 	}
 
 }
