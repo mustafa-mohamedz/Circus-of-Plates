@@ -1,7 +1,7 @@
 package eg.edu.alexu.csd.oop.game.object.shape.state;
 
 public interface ShapeState {
-
+	
 	public int getX();
 
 	public void setX(int x);
@@ -10,6 +10,6 @@ public interface ShapeState {
 
 	public void setY(int y);
 	
-    public int goNextState();
+    public ShapeState goNextState();
     
 }
