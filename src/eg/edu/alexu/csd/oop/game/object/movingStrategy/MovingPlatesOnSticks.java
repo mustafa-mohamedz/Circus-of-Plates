@@ -1,5 +1,6 @@
 package eg.edu.alexu.csd.oop.game.object.movingStrategy;
 
+import eg.edu.alexu.csd.oop.game.object.Clown;
 import eg.edu.alexu.csd.oop.game.world.InitialWorld;
 
 public class MovingPlatesOnSticks extends MovingHorizontal {
@@ -13,11 +14,11 @@ public class MovingPlatesOnSticks extends MovingHorizontal {
 
 	@Override
 	public void setX(int x) {
-		if (isRight && x >= 0) {
-			super.setX(x);
+		if (isRight) {
+			super.setX(Clown.getClown().getRightStickX() - 25);
 		}
-		if (!isRight && x <= InitialWorld.img.getWidth()) {
-			super.setX(x);
+		if (!isRight) {
+			super.setX(Clown.getClown().getLeftStickX() - 25);
 		}
 
 	}
