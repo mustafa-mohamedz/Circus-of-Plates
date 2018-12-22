@@ -10,7 +10,6 @@ public interface MovingStrategy {
 
 	public void setY(int y);
 
-	//TODO do we need this ?
 	public void move();
 
 }

@@ -1,7 +1,6 @@
 package eg.edu.alexu.csd.oop.game.object.movingStrategy;
 
 import eg.edu.alexu.csd.oop.game.object.Clown;
-import eg.edu.alexu.csd.oop.game.world.InitialWorld;
 
 public class MovingPlatesOnSticks extends MovingHorizontal {
 
