@@ -15,8 +15,6 @@ import javax.imageio.ImageIO;
 public class Clown extends GameObjectImp {
 	private static Clown singleClown;
 	private int rightMaxY;
-	private MovingStrategy movingStrategy;
-
 	public int getRightMaxY() {
 		return rightMaxY;
 	}

@@ -3,6 +3,8 @@ package eg.edu.alexu.csd.oop.game.object;
 import java.util.ArrayList;
 import java.util.List;
 
+import eg.edu.alexu.csd.oop.game.object.shape.Shape;
+
 
 public class PrototypeModule {
 	private static List<GameObjectImp> prototypes = new ArrayList<>();
@@ -13,7 +15,7 @@ public class PrototypeModule {
 
 	public static GameObjectImp clonePrototype(String name) {
 		for (GameObjectImp p : prototypes) {
-			if (((MovableObject)p).getName().equals(name)) {
+			if (((Shape)p).getName().equals(name)) {
 				return (GameObjectImp) p.clone();
 			}
 		}

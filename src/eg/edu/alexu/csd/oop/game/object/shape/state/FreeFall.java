@@ -16,7 +16,7 @@ public class FreeFall extends AbstractShapeState {
 	public ShapeState goNextState() {
 		movingStrategy.move();
 		int centerOfPlate = getX();
-		int centerOfLeftStick = Clown.getClown().getRightStickX();
+		int centerOfLeftStick = Clown.getClown().getLeftStickX();
 		int centerOfRightStick = Clown.getClown().getRightStickX();
 		if (Math.abs(centerOfPlate - centerOfLeftStick) <= 20
 				&& Math.abs(Clown.getClown().getLeftMaxY() - getY()) <= 5) {

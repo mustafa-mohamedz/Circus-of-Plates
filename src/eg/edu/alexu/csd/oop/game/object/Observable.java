@@ -5,6 +5,8 @@ import java.util.List;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
+import eg.edu.alexu.csd.oop.game.object.shape.Shape;
+
 import org.omg.CORBA.portable.ObjectImpl;
 
 public class Observable {
@@ -31,11 +33,11 @@ public class Observable {
 		Iterator objectIterator = new ObjectIterator(list);
 		if(list.size() == 0) return false;
 		int counter = 1;
-		MovableObject firstElement = (MovableObject) objectIterator.next();
+		Shape firstElement = (Shape) objectIterator.next();
 		String currentColor = firstElement.getColor();
 
 		while (objectIterator.hasNext()) {
-			MovableObject object = (MovableObject) objectIterator.next();
+			Shape object = (Shape) objectIterator.next();
 			if (object.getColor().equals(currentColor)) counter++;
 			else break;
 		}
