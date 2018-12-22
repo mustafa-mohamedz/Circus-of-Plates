@@ -16,6 +16,7 @@ import eg.edu.alexu.csd.oop.game.World;
 import eg.edu.alexu.csd.oop.game.object.*;
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingPlatesOnSticks;
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.UnMovable;
+import eg.edu.alexu.csd.oop.game.object.shape.PlateFactory;
 
 public class InitialWorld implements World {
     private List<GameObject> constantObjects;
@@ -52,7 +53,7 @@ public class InitialWorld implements World {
         constantObjects = new ArrayList<>();
         BufferedImage[] backGround = new BufferedImage[1];
         backGround[0] = img;
-        constantObjects.add(new GameObjectImp(backGround, new UnMovable(0, 0)));
+        constantObjects.add(new Background(backGround));
         ((GameObjectImp) constantObjects.get(0)).setVisible(true);
         movableObjects = new ArrayList<>();
         controlableObjects = new ArrayList<>();

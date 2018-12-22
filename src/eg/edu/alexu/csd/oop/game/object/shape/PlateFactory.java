@@ -1,4 +1,4 @@
-package eg.edu.alexu.csd.oop.game.object;
+package eg.edu.alexu.csd.oop.game.object.shape;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -6,8 +6,8 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingVertical;
-import eg.edu.alexu.csd.oop.game.world.InitialWorld;
+import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
+import eg.edu.alexu.csd.oop.game.object.PrototypeModule;
 
 public class PlateFactory {
 	protected static BufferedImage [][] plateImages;
@@ -34,7 +34,7 @@ public class PlateFactory {
 	}
 	
 	 public void initializeProtoTypes(int colorId) {
-	    	PrototypeModule.addPrototype(new Plate(plateImages[colorId], colorId, new MovingVertical((int) (Math.random()*InitialWorld.img.getWidth()), 10)));
+	    	PrototypeModule.addPrototype(new Plate(plateImages[colorId], colorId));
 	  
 	 }
 	    

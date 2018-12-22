@@ -10,6 +10,8 @@ public interface ShapeState {
 
 	public void setY(int y);
 	
-    public int goNextState();
+	public State getState(); 
+	
+    public ShapeState goNextState();
     
 }

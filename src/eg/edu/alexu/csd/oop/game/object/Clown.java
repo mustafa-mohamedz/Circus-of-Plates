@@ -15,6 +15,7 @@ import javax.imageio.ImageIO;
 public class Clown extends GameObjectImp {
 	private static Clown singleClown;
 	private int rightMaxY;
+	private MovingStrategy movingStrategy;
 
 	public int getRightMaxY() {
 		return rightMaxY;
@@ -35,7 +36,8 @@ public class Clown extends GameObjectImp {
 	private int leftMaxY;
 	
     private Clown(BufferedImage[] clown, MovingStrategy movingStrategy) {
-        super(clown, movingStrategy);
+        super(clown);
+        this.movingStrategy = movingStrategy;
         setVisible(true);
     }
 

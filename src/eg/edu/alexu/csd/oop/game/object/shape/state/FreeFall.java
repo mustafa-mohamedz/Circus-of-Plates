@@ -9,6 +9,7 @@ public class FreeFall implements ShapeState {
 
 	private MovingStrategy movingStrategy;
 	private Shape shape;
+	private State 
 
 	public FreeFall(Shape shape) {
 		this.shape = shape;
@@ -38,9 +39,9 @@ public class FreeFall implements ShapeState {
 
 	// Algorithm
 	@Override
-	public int goNextState() {
+	public ShapeState goNextState() {
 		movingStrategy.move();
-		return 0;
+		return null;
 		
 //		if(//fall on left stack) {
 //		  
@@ -51,6 +52,12 @@ public class FreeFall implements ShapeState {
 //			 
 //		}else {
 //		}
+	}
+
+	@Override
+	public State getState() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 		 
 }
