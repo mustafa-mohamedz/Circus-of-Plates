@@ -47,7 +47,7 @@ public class Plate extends GameObjectImp implements Shape {
     
     public Plate(BufferedImage[] spriteImages, int colorId) {
         super(spriteImages);
-        this.currentState = new FreeFall((Shape)this);
+        this.currentState = new FreeFall();
         switch (colorId) {
             case 0:
                 color = "red";

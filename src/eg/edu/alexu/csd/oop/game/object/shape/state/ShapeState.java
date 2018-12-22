@@ -1,7 +1,7 @@
 package eg.edu.alexu.csd.oop.game.object.shape.state;
 
 public interface ShapeState {
-
+	
 	public int getX();
 
 	public void setX(int x);
