@@ -3,6 +3,7 @@ package eg.edu.alexu.csd.oop.game.object;
 import java.awt.image.BufferedImage;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
+import eg.edu.alexu.csd.oop.game.object.shape.Shape;
 
 
 //TODO modify methods you want to adapt

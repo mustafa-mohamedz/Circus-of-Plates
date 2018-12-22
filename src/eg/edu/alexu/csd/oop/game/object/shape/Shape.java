@@ -1,7 +1,4 @@
-package eg.edu.alexu.csd.oop.game.object;
-
-import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingStrategy;
-import eg.edu.alexu.csd.oop.game.object.plate.state.PlateState;
+package eg.edu.alexu.csd.oop.game.object.shape;
 
 public interface Shape {
 	/** setter/getter for X position*/
@@ -19,6 +16,6 @@ public interface Shape {
 	/** @return object movement frames */
 	java.awt.image.BufferedImage[] getSpriteImages();
 			
-	void goNextState();
+	void goNextState(Shape shape);
 	
 }
