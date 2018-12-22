@@ -8,8 +8,7 @@ public class OnStickState extends AbstractShapeState {
 	private State state;
 	
 	public OnStickState(State state,MovingStrategy movingStrategy) {
-		super(movingStrategy);
-		movingStrategy = new MovingPlatesOnSticks(movingStrategy.getX(), movingStrategy.getY(), state.equals(State.ONRIGHTSTICK));
+		super(new MovingPlatesOnSticks(movingStrategy.getX(), movingStrategy.getY(), state.equals(State.ONRIGHTSTICK)));
 		this.state = state;
 	}
 
