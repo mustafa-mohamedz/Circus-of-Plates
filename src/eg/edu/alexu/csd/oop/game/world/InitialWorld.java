@@ -128,7 +128,7 @@ public class InitialWorld implements World {
                 }
             }
         }
-        return true;
+        return !isGameOver();
     }
 
     @Override
@@ -149,6 +149,10 @@ public class InitialWorld implements World {
     @Override
     public void update(int score) {
         this.score = score;
+    }
+    private boolean isGameOver() {
+		return Clown.getClown().getRightMaxY()<=25 || Clown.getClown().getLeftMaxY()<=25 ;
+    	
     }
 
 
