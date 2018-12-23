@@ -1,4 +1,6 @@
 import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
@@ -19,6 +21,7 @@ import eg.edu.alexu.csd.oop.game.world.InitialWorld;
 
 public class Main {
 
+
     public static void main(String[] args) {
 
         JMenuBar menuBar = new JMenuBar();
@@ -34,7 +37,20 @@ public class Main {
         menuBar.add(menu);
         MakeSounds.play("src/Images/sound.wav");
 
-        // TODO Auto-generated method stub
-        GameEngine.start("Circus Of Plates", new InitialWorld(InitialWorld.img.getWidth(), InitialWorld.img.getHeight(), 100, new Observable()), menuBar, Color.BLACK);
+        final GameController gameController = GameEngine.start("ayhabd", new InitialWorld(InitialWorld.img.getWidth(), InitialWorld.img.getHeight(), 100, new Observable()), menuBar, Color.BLACK);
+        pauseMenuItem.addActionListener(new ActionListener() {
+    		@Override public void actionPerformed(ActionEvent e) {
+    				gameController.pause();
+    			}
+    		});
+    		resumeMenuItem.addActionListener(new ActionListener() {
+    			@Override public void actionPerformed(ActionEvent e) {
+    				gameController.resume();
+    			}
+    		});
+        
+        
+        
     }
+
 }
