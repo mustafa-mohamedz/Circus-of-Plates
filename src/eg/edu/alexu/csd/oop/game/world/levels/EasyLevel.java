@@ -1,6 +1,6 @@
 package eg.edu.alexu.csd.oop.game.world.levels;
 
-public class EasyLevel implements LevelsDifficulty {
+public class EasyLevel implements LevelDifficulty {
 
 	@Override
 	public int getWroldSpeed() {

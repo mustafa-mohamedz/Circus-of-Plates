@@ -17,7 +17,7 @@ import eg.edu.alexu.csd.oop.game.object.shape.BallFactory;
 import eg.edu.alexu.csd.oop.game.object.shape.PlateFactory;
 import eg.edu.alexu.csd.oop.game.object.shape.Shape;
 import eg.edu.alexu.csd.oop.game.object.shape.state.State;
-import eg.edu.alexu.csd.oop.game.world.levels.LevelsDifficulty;
+import eg.edu.alexu.csd.oop.game.world.levels.LevelDifficulty;
 
 public class InitialWorld implements World {
     private List<GameObject> constantObjects;
@@ -29,7 +29,7 @@ public class InitialWorld implements World {
     private Observable observable;
     private int width;
     private int height;
-    private LevelsDifficulty difficulty;
+    private LevelDifficulty difficulty;
     private int score;
     private long time;
 
@@ -45,7 +45,7 @@ public class InitialWorld implements World {
         }
     }
 
-    public InitialWorld(int width, int height,LevelsDifficulty difficulty, Observable observable) {
+    public InitialWorld(int width, int height,LevelDifficulty difficulty, Observable observable) {
         time = System.currentTimeMillis();
         this.observable = observable;
         this.observable.add(this);

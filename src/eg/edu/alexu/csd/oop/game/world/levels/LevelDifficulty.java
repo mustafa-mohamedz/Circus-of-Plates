@@ -1,6 +1,6 @@
 package eg.edu.alexu.csd.oop.game.world.levels;
 
-public interface LevelsDifficulty {
+public interface LevelDifficulty {
 
 	int getWroldSpeed();
 	

@@ -1,1268 +1,634 @@
-œÌ” 23, 2018 9:02:29 „ Main main
+œÌ” 23, 2018 9:18:13 „ Main main
 INFO: Start Game
-œÌ” 23, 2018 9:02:29 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:14 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create redPlate
-œÌ” 23, 2018 9:02:30 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:30 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:14 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create redPlate
-œÌ” 23, 2018 9:02:30 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:30 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:30 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:14 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:15 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:15 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:16 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: Clown has caughtredPlateon left hand
-œÌ” 23, 2018 9:02:31 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:31 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:31 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:31 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtblueBallon left hand
-œÌ” 23, 2018 9:02:31 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:32 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:16 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create redBall
-œÌ” 23, 2018 9:02:32 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:32 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:17 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create blueBall
-œÌ” 23, 2018 9:02:32 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:32 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtbluePlateon left hand
-œÌ” 23, 2018 9:02:33 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:17 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:17 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:17 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:17 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:33 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:33 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:33 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:17 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:17 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create bluePlate
-œÌ” 23, 2018 9:02:33 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:17 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create redPlate
-œÌ” 23, 2018 9:02:33 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:33 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:33 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:33 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:18 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:34 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:34 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:34 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:34 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:34 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:34 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:34 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:34 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:35 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:35 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredPlateon left hand
-œÌ” 23, 2018 9:02:35 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:35 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:35 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:35 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:35 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:18 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create greenPlate
-œÌ” 23, 2018 9:02:35 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:18 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtredBallon left hand
+œÌ” 23, 2018 9:18:18 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:18 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:36 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:36 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:18 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create greenPlate
-œÌ” 23, 2018 9:02:36 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:36 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredPlateon right hand
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtgreenPlateon right hand
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:18 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:18 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create blueBall
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredPlateon left hand
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:38 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:38 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:38 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:38 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:38 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:38 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:38 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:38 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:39 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:39 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:39 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:39 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:39 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:39 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:39 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:39 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:39 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtbluePlateon right hand
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:18 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: Clown has caughtblueBallon right hand
-œÌ” 23, 2018 9:02:40 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:41 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:41 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:41 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:41 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:41 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:41 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:41 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:42 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:42 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:42 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:42 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:42 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:42 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:42 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:42 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:42 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:42 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:43 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:43 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:43 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:43 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:43 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtblueBallon right hand
-œÌ” 23, 2018 9:02:43 „ eg.edu.alexu.csd.oop.game.object.Observable execute
-INFO: Player got point
-œÌ” 23, 2018 9:02:43 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:43 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:43 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:43 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:44 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:44 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:44 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:44 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:44 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:44 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:44 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:44 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:44 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:44 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:45 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:45 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:45 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:45 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:45 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:45 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredPlateon left hand
-œÌ” 23, 2018 9:02:45 „ eg.edu.alexu.csd.oop.game.object.Observable execute
-INFO: Player got point
-œÌ” 23, 2018 9:02:45 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:45 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:46 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:46 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:46 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:46 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:46 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:47 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:47 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:47 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:47 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:47 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:47 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:47 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:47 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:47 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:47 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:47 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:48 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:48 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:48 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:48 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:48 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:48 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:48 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:48 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredPlateon left hand
-œÌ” 23, 2018 9:02:48 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:48 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:49 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:49 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:49 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:49 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:49 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:49 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:49 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtbluePlateon right hand
-œÌ” 23, 2018 9:02:49 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtblueBallon left hand
-œÌ” 23, 2018 9:02:49 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:50 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:50 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:50 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:50 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:50 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:50 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:50 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:50 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:50 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:50 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:51 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:51 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:51 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:51 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:51 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:51 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:51 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:18 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: Clown has caughtgreenBallon right hand
-œÌ” 23, 2018 9:02:51 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:19 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:19 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtredPlateon left hand
+œÌ” 23, 2018 9:18:19 „ eg.edu.alexu.csd.oop.game.object.Observable execute
+INFO: Player got point
+œÌ” 23, 2018 9:18:19 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:20 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:51 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:51 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:20 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:20 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: Clown has caughtblueBallon right hand
-œÌ” 23, 2018 9:02:51 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:52 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:52 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:52 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:20 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:21 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create redPlate
-œÌ” 23, 2018 9:02:52 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:21 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:21 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:21 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:21 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:21 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:21 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:21 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:22 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:22 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:22 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:23 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:23 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:23 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: Clown has caughtbluePlateon left hand
-œÌ” 23, 2018 9:02:52 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:52 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:52 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:52 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:23 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:23 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create greenPlate
-œÌ” 23, 2018 9:02:52 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:53 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:53 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:53 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:53 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:53 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:54 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:54 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:54 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:54 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:54 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:54 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:24 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:54 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:24 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:24 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:24 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:24 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:24 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:24 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create redBall
-œÌ” 23, 2018 9:02:54 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:54 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtblueBallon left hand
-œÌ” 23, 2018 9:02:54 „ eg.edu.alexu.csd.oop.game.object.Observable execute
-INFO: Player got point
-œÌ” 23, 2018 9:02:55 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:55 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:24 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:25 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:25 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:25 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create blueBall
-œÌ” 23, 2018 9:02:55 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:55 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:25 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtbluePlateon left hand
+œÌ” 23, 2018 9:18:25 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:55 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:25 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:25 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create blueBall
-œÌ” 23, 2018 9:02:55 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:55 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:55 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:26 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:26 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:26 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:26 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:26 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:26 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:27 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create greenBall
-œÌ” 23, 2018 9:02:55 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:27 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:27 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create bluePlate
-œÌ” 23, 2018 9:02:55 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:28 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:29 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:29 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:29 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:29 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:29 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:29 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtbluePlateon left hand
+œÌ” 23, 2018 9:18:29 „ eg.edu.alexu.csd.oop.game.object.Observable execute
+INFO: Player got point
+œÌ” 23, 2018 9:18:29 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:29 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:29 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:30 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:30 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:30 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:30 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create bluePlate
-œÌ” 23, 2018 9:02:56 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:31 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:31 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: Clown has caughtredBallon left hand
-œÌ” 23, 2018 9:02:56 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:56 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:56 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:56 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:56 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:56 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:56 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:57 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:57 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:57 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:31 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create blueBall
-œÌ” 23, 2018 9:02:57 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:57 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:57 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:57 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:57 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:57 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredPlateon right hand
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:31 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:58 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredBallon left hand
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.Observable execute
-INFO: Player got point
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:02:59 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:00 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:00 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:00 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:00 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:00 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:00 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:00 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:32 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtbluePlateon right hand
+œÌ” 23, 2018 9:18:32 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create bluePlate
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:32 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:32 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create blueBall
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:32 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:32 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:32 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:32 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create redBall
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:01 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:32 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:32 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create bluePlate
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:33 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:02 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:03 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:03 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:03 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:03 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:03 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:33 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create bluePlate
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:34 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:04 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:05 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:05 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:05 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:05 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:05 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:05 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtblueBallon left hand
-œÌ” 23, 2018 9:03:05 „ eg.edu.alexu.csd.oop.game.object.Observable execute
-INFO: Player got point
-œÌ” 23, 2018 9:03:05 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:05 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:05 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:05 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:06 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:06 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:06 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:06 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:06 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:06 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:06 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:06 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:06 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:07 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:07 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:07 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:07 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:07 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:07 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:07 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:07 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:08 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:08 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:08 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:08 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:08 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:08 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:08 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:08 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:08 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:34 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: Clown has caughtgreenBallon left hand
-œÌ” 23, 2018 9:03:08 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:09 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:09 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:09 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:09 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:10 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:10 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtgreenPlateon left hand
-œÌ” 23, 2018 9:03:10 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:10 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:10 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:34 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create greenPlate
-œÌ” 23, 2018 9:03:10 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:10 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:10 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:10 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:11 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:11 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:11 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:34 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create redPlate
-œÌ” 23, 2018 9:03:11 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:11 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:34 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:35 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:35 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:35 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:35 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:35 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create bluePlate
-œÌ” 23, 2018 9:03:11 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:35 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:35 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:35 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:36 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:36 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:36 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:37 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:11 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:11 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:11 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:11 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtbluePlateon left hand
+œÌ” 23, 2018 9:18:37 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create blueBall
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:37 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create redBall
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:12 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:37 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create redPlate
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:38 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:38 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:38 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:38 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:38 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:38 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:38 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:38 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtgreenPlateon left hand
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.Observable execute
+œÌ” 23, 2018 9:18:39 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:39 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:39 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:39 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:39 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:40 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:40 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtblueBallon right hand
+œÌ” 23, 2018 9:18:40 „ eg.edu.alexu.csd.oop.game.object.Observable execute
 INFO: Player got point
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:40 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:40 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:40 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:40 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:40 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:13 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+œÌ” 23, 2018 9:18:41 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
 INFO: Create redPlate
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:41 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:41 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create blueBall
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredPlateon right hand
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:14 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:15 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:15 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:15 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:15 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:15 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:15 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:15 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:15 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:15 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredPlateon right hand
-œÌ” 23, 2018 9:03:15 „ eg.edu.alexu.csd.oop.game.object.Observable execute
-INFO: Player got point
-œÌ” 23, 2018 9:03:15 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:16 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:16 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:16 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:16 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:16 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:16 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:16 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:16 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:16 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:16 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:16 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:17 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:17 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:17 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:41 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:17 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:17 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:17 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:17 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:17 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:18 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredBallon right hand
-œÌ” 23, 2018 9:03:18 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:18 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:18 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:18 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:18 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:18 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:18 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:41 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:18 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:19 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:42 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create redBall
-œÌ” 23, 2018 9:03:19 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:19 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:19 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:19 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+œÌ” 23, 2018 9:18:42 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:42 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
 INFO: Create redBall
-œÌ” 23, 2018 9:03:19 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:19 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtgreenPlateon right hand
-œÌ” 23, 2018 9:03:19 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:19 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:20 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:20 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:20 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:20 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:20 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:20 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:20 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:20 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:21 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:21 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:21 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredPlateon right hand
-œÌ” 23, 2018 9:03:21 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:21 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:21 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:21 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:21 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:21 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:22 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:22 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:22 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:22 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:23 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:23 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:23 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:23 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:23 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:23 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:24 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:24 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:24 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:24 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:24 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:24 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:24 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:24 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:24 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:24 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtblueBallon right hand
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtblueBallon right hand
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtredBallon right hand
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:25 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:26 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:26 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:26 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:26 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:26 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:26 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:26 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:26 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:26 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:26 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:26 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:27 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:27 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:28 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:28 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:28 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:28 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:29 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:29 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:29 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:29 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:29 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:29 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:29 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtgreenPlateon right hand
-œÌ” 23, 2018 9:03:29 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:29 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:29 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:29 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:30 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:30 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:30 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:30 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:30 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:30 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:31 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:31 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:31 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:31 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:31 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:31 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:32 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:32 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:32 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:32 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:32 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:32 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:32 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:32 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:33 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:33 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:33 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:33 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:33 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:33 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:33 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:34 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:34 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:34 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:34 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:34 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:34 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:35 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:35 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:35 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:35 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create redBall
-œÌ” 23, 2018 9:03:35 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:35 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:35 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:35 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:35 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:36 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create redPlate
-œÌ” 23, 2018 9:03:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:36 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:36 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:36 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:37 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: bluePlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:37 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: Clown has caughtblueBallon right hand
-œÌ” 23, 2018 9:03:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: blueBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:37 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:37 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redBall has been fallen to to the ground
-œÌ” 23, 2018 9:03:37 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create blueBall
-œÌ” 23, 2018 9:03:37 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: greenPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:38 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:38 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:38 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:42 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: Clown has caughtblueBallon left hand
-œÌ” 23, 2018 9:03:38 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
-INFO: Create greenBall
-œÌ” 23, 2018 9:03:38 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
-INFO: redPlate has been fallen to to the ground
-œÌ” 23, 2018 9:03:38 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create greenPlate
-œÌ” 23, 2018 9:03:38 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
-INFO: Create bluePlate
-œÌ” 23, 2018 9:03:39 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+œÌ” 23, 2018 9:18:42 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
 INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:42 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:42 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:42 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:42 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:43 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:43 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:43 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:43 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:44 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:44 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:44 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:44 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:44 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:44 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:44 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:44 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtbluePlateon left hand
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.Observable execute
+INFO: Player got point
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:45 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:46 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:46 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:46 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:46 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:46 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:46 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:46 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:47 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:47 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:47 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:48 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:48 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:48 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:48 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:48 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:48 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:48 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:48 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:48 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:49 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:49 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:49 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:49 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:49 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:50 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:50 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:50 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:50 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtredPlateon left hand
+œÌ” 23, 2018 9:18:50 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:51 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:51 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:51 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:51 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:51 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtredBallon right hand
+œÌ” 23, 2018 9:18:51 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:51 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:51 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:52 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:52 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:52 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtbluePlateon right hand
+œÌ” 23, 2018 9:18:52 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:52 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:53 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:53 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:53 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:53 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:53 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:53 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:53 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:53 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:53 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:53 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:54 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:54 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:54 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:54 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:55 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:55 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtblueBallon left hand
+œÌ” 23, 2018 9:18:55 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:55 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:55 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:55 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:55 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:55 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:55 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:56 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:56 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:56 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:56 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:56 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:56 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:18:56 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:56 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:57 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:57 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:57 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create redPlate
+œÌ” 23, 2018 9:18:57 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:57 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtbluePlateon left hand
+œÌ” 23, 2018 9:18:58 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:18:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:58 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:58 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:59 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:18:59 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:18:59 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: bluePlate has been fallen to to the ground
+œÌ” 23, 2018 9:18:59 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:59 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:18:59 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:18:59 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:19:00 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:19:00 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:19:00 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:19:00 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:19:00 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redPlate has been fallen to to the ground
+œÌ” 23, 2018 9:19:00 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: Clown has caughtbluePlateon left hand
+œÌ” 23, 2018 9:19:00 „ eg.edu.alexu.csd.oop.game.object.Observable execute
+INFO: Player got point
+œÌ” 23, 2018 9:19:00 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:19:01 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:19:01 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:19:02 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:19:02 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:19:02 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:19:02 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create greenBall
+œÌ” 23, 2018 9:19:02 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:19:02 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:19:02 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: redBall has been fallen to to the ground
+œÌ” 23, 2018 9:19:03 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenPlate has been fallen to to the ground
+œÌ” 23, 2018 9:19:03 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: greenBall has been fallen to to the ground
+œÌ” 23, 2018 9:19:03 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create redBall
+œÌ” 23, 2018 9:19:03 „ eg.edu.alexu.csd.oop.game.object.shape.BallFactory getRandomShape
+INFO: Create blueBall
+œÌ” 23, 2018 9:19:03 „ eg.edu.alexu.csd.oop.game.object.shape.state.FreeFall goNextState
+INFO: blueBall has been fallen to to the ground
+œÌ” 23, 2018 9:19:03 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create bluePlate
+œÌ” 23, 2018 9:19:03 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
+œÌ” 23, 2018 9:19:04 „ eg.edu.alexu.csd.oop.game.object.shape.PlateFactory getRandomShape
+INFO: Create greenPlate
