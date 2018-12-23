@@ -5,7 +5,6 @@ import java.util.List;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
-import org.omg.CORBA.portable.ObjectImpl;
 
 public class Observable {
 	private List<World> observers = new ArrayList<>(); 
