@@ -1,5 +1,6 @@
 package eg.edu.alexu.csd.oop.game.object.shape;
 
+import eg.edu.alexu.csd.oop.game.Log;
 import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
 
 import javax.imageio.ImageIO;
@@ -27,9 +28,10 @@ public class BallFactory implements AbstractFactory {
     }
 
     @Override
-    public GameObjectImp getRandomShape() {
+    public Shape getRandomShape() {
     	int colorId = (int) (Math.random() * 3);
-        GameObjectImp RandomBall = new Ball(ballImages[colorId], color[colorId]);
+        Shape RandomBall = new Ball(ballImages[colorId], color[colorId]);
+		Log.getLoggeer().info("Create "+ (String) RandomBall.getName());
         return RandomBall;
     }
 }

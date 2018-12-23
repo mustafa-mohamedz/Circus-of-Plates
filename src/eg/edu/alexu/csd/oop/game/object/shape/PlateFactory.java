@@ -6,6 +6,7 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+import eg.edu.alexu.csd.oop.game.Log;
 import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
 
 public class PlateFactory implements AbstractFactory {
@@ -29,9 +30,10 @@ public class PlateFactory implements AbstractFactory {
 	}
 
 	@Override
-	public GameObjectImp getRandomShape() {
+	public Shape getRandomShape() {
 		int colorId = (int) (Math.random() * 3);
-		Plate RandomPlate = new Plate(plateImages[colorId], colors[colorId]);
+		Shape RandomPlate = new Plate(plateImages[colorId], colors[colorId]);
+		Log.getLoggeer().info("Create "+ (String) RandomPlate.getName());
 		return RandomPlate;
 	}
 
