@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
+import eg.edu.alexu.csd.oop.game.Log;
 import eg.edu.alexu.csd.oop.game.MakeSounds;
 import eg.edu.alexu.csd.oop.game.World;
 import eg.edu.alexu.csd.oop.game.object.shape.Shape;
@@ -49,6 +50,7 @@ public class Observable {
             else break;
         }
         if (counter == 3) {
+    		Log.getLoggeer().info("Player got point");
             score++;
             MakeSounds.play("src/Images/pop.wav");
             return true;
