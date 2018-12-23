@@ -3,19 +3,17 @@ package eg.edu.alexu.csd.oop.game.world;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.sql.Time;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.imageio.ImageIO;
 
-import com.sun.webkit.Timer;
 import eg.edu.alexu.csd.oop.game.GameObject;
+import eg.edu.alexu.csd.oop.game.STATIC_VARS;
 import eg.edu.alexu.csd.oop.game.World;
 import eg.edu.alexu.csd.oop.game.object.*;
-import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingPlatesOnSticks;
-import eg.edu.alexu.csd.oop.game.object.movingStrategy.UnMovable;
+import eg.edu.alexu.csd.oop.game.object.shape.AbstractFactory;
+import eg.edu.alexu.csd.oop.game.object.shape.BallFactory;
 import eg.edu.alexu.csd.oop.game.object.shape.PlateFactory;
 import eg.edu.alexu.csd.oop.game.object.shape.Shape;
 import eg.edu.alexu.csd.oop.game.object.shape.state.State;
@@ -35,7 +33,8 @@ public class InitialWorld implements World {
     private long time;
 
     public static BufferedImage img;
-    private PlateFactory plateFactory;
+    private AbstractFactory plateFactory;
+    private AbstractFactory ballFactory;
 
     static {
         try {
@@ -64,6 +63,8 @@ public class InitialWorld implements World {
         Clown.getClown().setLeftMaxY(img.getHeight() - Clown.getClown().getHeight());
         Clown.getClown().setRightMaxY(img.getHeight() - Clown.getClown().getHeight());
         plateFactory = new PlateFactory();
+        ballFactory = new BallFactory();
+
     }
 
     @Override
@@ -94,7 +95,8 @@ public class InitialWorld implements World {
     @Override
     public boolean refresh() {
         if ((int) (Math.random() * 4) > 2) {
-            movableObjects.add(plateFactory.getRandomPlate());
+            if ((int) (Math.random() * 2) == 1) movableObjects.add(plateFactory.getRandomShape());
+            else movableObjects.add(ballFactory.getRandomShape());
         }
         for (int i = 0; i < movableObjects.size(); i++) {
             Shape tmp = (Shape) movableObjects.get(i);
@@ -102,23 +104,24 @@ public class InitialWorld implements World {
             if (state.equals(State.OUTOFBOUNDRIES)) {
                 movableObjects.remove(i);
                 continue;
-            }else if (state.equals(State.ONLEFTSTICK)) {
-            	controlableObjects.add(movableObjects.remove(i));
-            	onLeftStick.add(tmp);
+            } else if (state.equals(State.ONLEFTSTICK)) {
+                controlableObjects.add(movableObjects.remove(i));
+                onLeftStick.add(tmp);
                 if (observable.setScore(onLeftStick)) {
                     for (int j = 0; j < 3; j++) {
-                        controlableObjects.remove(onLeftStick.remove(onLeftStick.size() - 1));
-                        Clown.getClown().setLeftMaxY(Clown.getClown().getLeftMaxY() + 10);
+                        GameObject objectToRemove = onLeftStick.remove(onLeftStick.size() - 1);
+                        controlableObjects.remove(objectToRemove);
+                        Clown.getClown().setLeftMaxY(Clown.getClown().getLeftMaxY() + objectToRemove.getHeight());
                     }
                 }
-			}
-            else if (state.equals(State.ONRIGHTSTICK)) {
+            } else if (state.equals(State.ONRIGHTSTICK)) {
                 controlableObjects.add(movableObjects.remove(i));
                 onRightStick.add(tmp);
                 if (observable.setScore(onRightStick)) {
                     for (int j = 0; j < 3; j++) {
-                        controlableObjects.remove(onRightStick.remove(onRightStick.size() - 1));
-                        Clown.getClown().setRightMaxY(Clown.getClown().getRightMaxY() + 10);
+                        GameObject objectToRemove = onRightStick.remove(onRightStick.size() - 1);
+                        controlableObjects.remove(objectToRemove);
+                        Clown.getClown().setRightMaxY(Clown.getClown().getRightMaxY() + objectToRemove.getHeight());
                     }
                 }
             }
@@ -128,7 +131,7 @@ public class InitialWorld implements World {
 
     @Override
     public String getStatus() {
-        return "Score = " + score + "   |   Time = " + (60 - (System.currentTimeMillis() - time) / 1000);
+        return "Score = " + score + "   |   Time = " + (STATIC_VARS.TOTALTIME - (System.currentTimeMillis() - time) / 1000);
     }
 
     @Override

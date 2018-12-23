@@ -2,14 +2,14 @@ package eg.edu.alexu.csd.oop.game.object.movingStrategy;
 
 public interface MovingStrategy {
 	
-	public int getX();
+	int getX();
 
-	public void setX(int x);
+	void setX(int x);
 
-	public int getY();
+	int getY();
 
-	public void setY(int y);
+	void setY(int y);
 
-	public void move();
+	void move();
 
 }

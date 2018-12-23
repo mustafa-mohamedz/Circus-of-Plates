@@ -1,6 +1,7 @@
 package eg.edu.alexu.csd.oop.game.object.shape.state;
 
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingStrategy;
+import eg.edu.alexu.csd.oop.game.object.shape.Shape;
 
 public class OutOfBoundries extends AbstractShapeState {
 
@@ -9,7 +10,7 @@ public class OutOfBoundries extends AbstractShapeState {
 	}
 
 	@Override
-	public ShapeState goNextState() {
+	public ShapeState goNextState(Shape shape) {
 		return this;
 	}
 

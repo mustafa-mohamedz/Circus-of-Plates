@@ -1,6 +1,7 @@
 package eg.edu.alexu.csd.oop.game.object.shape.state;
 
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingStrategy;
+import eg.edu.alexu.csd.oop.game.object.shape.Shape;
 
 
 public abstract class AbstractShapeState implements ShapeState {
@@ -35,6 +36,6 @@ public abstract class AbstractShapeState implements ShapeState {
 	public abstract State getState();
 
 	@Override
-	public abstract ShapeState goNextState();
+	public abstract ShapeState goNextState(Shape shape);
 
 }
