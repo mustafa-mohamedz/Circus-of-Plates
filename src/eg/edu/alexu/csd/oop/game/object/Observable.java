@@ -3,9 +3,9 @@ package eg.edu.alexu.csd.oop.game.object;
 import java.util.ArrayList;
 import java.util.List;
 
-
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.World;
+import org.omg.CORBA.portable.ObjectImpl;
 
 public class Observable {
 	private List<World> observers = new ArrayList<>(); 
@@ -51,4 +51,8 @@ public class Observable {
 		}
 	}
 	
+	
+	
+	
+
 }
