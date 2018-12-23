@@ -4,7 +4,7 @@ public class EasyLevel implements LevelsDifficulty {
 
 	@Override
 	public int getWroldSpeed() {
-		return 40;
+		return 60;
 	}
 
 	@Override

@@ -18,6 +18,7 @@ import eg.edu.alexu.csd.oop.game.GameEngine.GameController;
 import eg.edu.alexu.csd.oop.game.MakeSounds;
 import eg.edu.alexu.csd.oop.game.object.Observable;
 import eg.edu.alexu.csd.oop.game.world.InitialWorld;
+import eg.edu.alexu.csd.oop.game.world.levels.HardLevel;
 
 public class Main {
 
@@ -37,7 +38,7 @@ public class Main {
         menuBar.add(menu);
         MakeSounds.play("src/Images/sound.wav");
 
-        final GameController gameController = GameEngine.start("ayhabd", new InitialWorld(InitialWorld.img.getWidth(), InitialWorld.img.getHeight(), 100, new Observable()), menuBar, Color.BLACK);
+        final GameController gameController = GameEngine.start("ayhabd", new InitialWorld(InitialWorld.img.getWidth(), InitialWorld.img.getHeight(), new HardLevel(), new Observable()), menuBar, Color.BLACK);
         pauseMenuItem.addActionListener(new ActionListener() {
     		@Override public void actionPerformed(ActionEvent e) {
     				gameController.pause();

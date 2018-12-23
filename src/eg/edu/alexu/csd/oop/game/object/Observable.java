@@ -13,9 +13,10 @@ import org.omg.CORBA.portable.ObjectImpl;
 public class Observable {
     private List<World> observers = new ArrayList<>();
     private int score;
+    private int counter;
 
-
-    public void add(World w) {
+   
+	public void add(World w) {
         observers.add(w);
     }
 
@@ -48,7 +49,7 @@ public class Observable {
             if (object.getColor().equals(currentColor)) counter++;
             else break;
         }
-        if (counter == 3) {
+        if (counter == this.counter) {
             score++;
             MakeSounds.play("src/Images/pop.wav");
             return true;
@@ -61,4 +62,13 @@ public class Observable {
             w.update(this.score);
         }
     }
+    
+    public int getCounter() {
+		return counter;
+	}
+
+	public void setCounter(int counter) {
+		this.counter = counter;
+	}
+
 }

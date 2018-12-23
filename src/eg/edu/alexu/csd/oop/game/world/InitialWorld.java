@@ -17,6 +17,7 @@ import eg.edu.alexu.csd.oop.game.object.shape.BallFactory;
 import eg.edu.alexu.csd.oop.game.object.shape.PlateFactory;
 import eg.edu.alexu.csd.oop.game.object.shape.Shape;
 import eg.edu.alexu.csd.oop.game.object.shape.state.State;
+import eg.edu.alexu.csd.oop.game.world.levels.LevelsDifficulty;
 
 public class InitialWorld implements World {
     private List<GameObject> constantObjects;
@@ -28,7 +29,7 @@ public class InitialWorld implements World {
     private Observable observable;
     private int width;
     private int height;
-    private int speed;
+    private LevelsDifficulty difficulty;
     private int score;
     private long time;
 
@@ -44,13 +45,14 @@ public class InitialWorld implements World {
         }
     }
 
-    public InitialWorld(int width, int height, int speed, Observable observable) {
+    public InitialWorld(int width, int height,LevelsDifficulty difficulty, Observable observable) {
         time = System.currentTimeMillis();
         this.observable = observable;
         this.observable.add(this);
         this.width = width;
         this.height = height;
-        this.speed = speed;
+        this.difficulty = difficulty;
+        observable.setCounter(difficulty.getNumOfShapesNeededToScore());
         constantObjects = new ArrayList<>();
         BufferedImage[] backGround = new BufferedImage[1];
         backGround[0] = img;
@@ -94,7 +96,7 @@ public class InitialWorld implements World {
 
     @Override
     public boolean refresh() {
-        if ((int) (Math.random() * 4) > 2) {
+        if (difficulty.getMoreShapes()) {
             if ((int) (Math.random() * 2) == 1) movableObjects.add(plateFactory.getRandomShape());
             else movableObjects.add(ballFactory.getRandomShape());
         }
@@ -108,7 +110,7 @@ public class InitialWorld implements World {
                 controlableObjects.add(movableObjects.remove(i));
                 onLeftStick.add(tmp);
                 if (observable.setScore(onLeftStick)) {
-                    for (int j = 0; j < 3; j++) {
+                    for (int j = 0; j < difficulty.getNumOfShapesNeededToScore(); j++) {
                         GameObject objectToRemove = onLeftStick.remove(onLeftStick.size() - 1);
                         controlableObjects.remove(objectToRemove);
                         Clown.getClown().setLeftMaxY(Clown.getClown().getLeftMaxY() + objectToRemove.getHeight());
@@ -118,7 +120,7 @@ public class InitialWorld implements World {
                 controlableObjects.add(movableObjects.remove(i));
                 onRightStick.add(tmp);
                 if (observable.setScore(onRightStick)) {
-                    for (int j = 0; j < 3; j++) {
+                    for (int j = 0; j < difficulty.getNumOfShapesNeededToScore(); j++) {
                         GameObject objectToRemove = onRightStick.remove(onRightStick.size() - 1);
                         controlableObjects.remove(objectToRemove);
                         Clown.getClown().setRightMaxY(Clown.getClown().getRightMaxY() + objectToRemove.getHeight());
@@ -136,12 +138,12 @@ public class InitialWorld implements World {
 
     @Override
     public int getSpeed() {
-        return 50;
+        return difficulty.getWroldSpeed();
     }
 
     @Override
     public int getControlSpeed() {
-        return 10;
+        return difficulty.getControlSpeed();
     }
 
     @Override

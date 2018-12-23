@@ -4,7 +4,7 @@ public class HardLevel implements LevelsDifficulty {
 
 	@Override
 	public int getWroldSpeed() {
-		return 60;
+		return 40;
 	}
 
 	@Override
