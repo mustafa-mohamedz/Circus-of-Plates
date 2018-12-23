@@ -11,15 +11,13 @@ import eg.edu.alexu.csd.oop.game.object.shape.state.State;
 
 public class Plate extends Shape {
 
-    public Plate(BufferedImage[] spriteImages, int colorId) {
-        super(spriteImages, colorId);
+    public Plate(BufferedImage[] spriteImages, String color) {
+        super(spriteImages, color);
     }
 
     @Override
     public GameObjectImp clone() {
-        BufferedImage[][] plateImages = PlateFactory.plateImages;
-        int colorId = (int) (Math.random() * 3);
-        return new Plate(plateImages[colorId], colorId);
+        return new Plate(getSpriteImages(), getColor());
     }
 
     @Override
@@ -34,6 +32,6 @@ public class Plate extends Shape {
 
     @Override
     public Object getName() {
-        return "Plate";
+        return color + "Plate";
     }
 }

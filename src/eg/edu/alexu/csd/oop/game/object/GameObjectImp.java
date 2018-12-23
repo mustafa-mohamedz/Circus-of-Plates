@@ -58,22 +58,11 @@ public class GameObjectImp implements GameObject {
 
     }
 
-    ;
-
     //TODO not in interface
     public void setVisible(boolean visible) {
         isVisible = visible;
     }
 
-    @Override
-    public GameObject clone() {
-        // TODO Auto-generated method stub
-        try {
-            return (GameObject) super.clone();
-        } catch (CloneNotSupportedException e) {
-            throw new InternalError();
-        }
-    }
 
 
 }

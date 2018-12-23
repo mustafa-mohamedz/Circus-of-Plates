@@ -29,8 +29,10 @@ public class Observable {
 
     public boolean setScore(List<GameObject> list) {
         boolean isChanged = execute(list);
-        notifyObservers();
-        return isChanged;
+        if (isChanged) {
+			notifyObservers();
+		}
+		return isChanged;
     }
 
     public boolean execute(List<GameObject> list) {

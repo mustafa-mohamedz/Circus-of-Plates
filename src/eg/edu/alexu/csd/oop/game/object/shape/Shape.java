@@ -41,27 +41,12 @@ public abstract class Shape extends GameObjectImp {
         currentState.setY(y);
     }
 
-    public Shape(BufferedImage[] spriteImages, int colorId) {
+    public Shape(BufferedImage[] spriteImages, String color) {
         super(spriteImages);
         this.currentState = new FreeFall();
-        switch (colorId) {
-            case 0:
-                color = "red";
-                break;
-            case 1:
-                color = "green";
-                break;
-            case 2:
-                color = "blue";
-                break;
-            default:
-                break;
-        }
+        this.color = color;
         setVisible(true);
     }
-
-    @Override
-    public abstract GameObjectImp clone();
 
     public State goNextState() {
         this.currentState = currentState.goNextState(this);

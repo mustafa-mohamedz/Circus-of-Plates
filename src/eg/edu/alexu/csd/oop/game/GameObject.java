@@ -1,7 +1,7 @@
 package eg.edu.alexu.csd.oop.game;
 
 
-public interface GameObject extends Cloneable{
+public interface GameObject{
 	/** setter/getter for X position*/
 	int getX();
 	void setX(int x);

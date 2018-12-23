@@ -10,17 +10,9 @@ import java.awt.image.BufferedImage;
 
 public class Ball extends Shape {
 
-    public Ball(BufferedImage[] spriteImages, int colorId) {
-        super(spriteImages, colorId);
+    public Ball(BufferedImage[] spriteImages, String color) {
+        super(spriteImages, color);
     }
-
-    @Override
-    public GameObjectImp clone() {
-        BufferedImage[][] ballImages = BallFactory.ballImages;
-        int colorId = (int) (Math.random() * 3);
-        return new Ball(ballImages[colorId], colorId);
-    }
-
     @Override
     public int getWidth() {
         return STATIC_VARS.BALL_WIDTH;
@@ -33,7 +25,8 @@ public class Ball extends Shape {
 
     @Override
     public Object getName() {
-        return "Ball";
+        return color + "Ball";
     }
+	
 
 }
