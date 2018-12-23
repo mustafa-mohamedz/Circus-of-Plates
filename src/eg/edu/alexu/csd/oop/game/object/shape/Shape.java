@@ -41,7 +41,6 @@ public abstract class Shape extends GameObjectImp {
         currentState.setY(y);
     }
 
-
     public Shape(BufferedImage[] spriteImages, int colorId) {
         super(spriteImages);
         this.currentState = new FreeFall();
