@@ -12,9 +12,8 @@ public class GameObjectImp implements GameObject {
     protected BufferedImage[] spriteImages;
     protected MovingStrategy movingStrategy;
 
-    public GameObjectImp(BufferedImage[] spriteImages, MovingStrategy movingStrategy) {
+    public GameObjectImp(BufferedImage[] spriteImages) {
         this.spriteImages = spriteImages;
-        this.movingStrategy = movingStrategy;
     }
 
     @Override
@@ -64,14 +63,6 @@ public class GameObjectImp implements GameObject {
     //TODO not in interface
     public void setVisible(boolean visible) {
         isVisible = visible;
-    }
-
-    public void setMovingStrategy(MovingStrategy movingStrategy) {
-        this.movingStrategy = movingStrategy;
-    }
-
-    public MovingStrategy getMovingStrategy() {
-        return this.movingStrategy;
     }
 
     @Override
