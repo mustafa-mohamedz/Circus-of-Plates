@@ -18,8 +18,8 @@ public class BallFactory implements AbstractFactory {
             BufferedImage green = ImageIO.read(new File("src/Images/greenball2.png"));
             ballImages = new BufferedImage[3][1];
             ballImages[0][0] = red;
-            ballImages[1][0] = green;
-            ballImages[2][0] = blue;
+            ballImages[1][0] = blue;
+            ballImages[2][0] = green;
             color = new String[] { "red", "blue", "green" };
         } catch (IOException e) {
             e.printStackTrace();
