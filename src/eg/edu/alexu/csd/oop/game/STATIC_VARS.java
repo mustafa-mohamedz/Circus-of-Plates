@@ -2,7 +2,7 @@ package eg.edu.alexu.csd.oop.game;
 
 public class STATIC_VARS {
 
-    public static final int TOTALTIME = 60;
+    public static final int TOTALTIME = 120;
     public static final int WIDTH_COLLECTION_REGION = 20;
     // clown collects the shape within this region above or below his hands.
     public static final int HEIGHT_COLLECTION_REGION = 5;
