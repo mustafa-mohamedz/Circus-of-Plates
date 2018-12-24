@@ -134,7 +134,8 @@ public class InitialWorld implements World {
 
     @Override
     public String getStatus() {
-        return "Score = " + score + "   |   Time = " + (STATIC_VARS.TOTALTIME - (System.currentTimeMillis() - time) / 1000);
+    	return !isGameOver()?"Score = " + score + "   |   Time = "
+    						+ (STATIC_VARS.TOTALTIME - (System.currentTimeMillis() - time) / 1000) : "Score = " + score;
     }
 
     @Override
@@ -153,7 +154,8 @@ public class InitialWorld implements World {
     }
 
     private boolean isGameOver() {
-        return Clown.getClown().getRightMaxY() <= 25 || Clown.getClown().getLeftMaxY() <= 25;
+    	return Clown.getClown().getRightMaxY() <= 25 || Clown.getClown().getLeftMaxY() <= 25
+    							|| (STATIC_VARS.TOTALTIME - (System.currentTimeMillis() - time) / 1000) <= 0;
 
     }
 
