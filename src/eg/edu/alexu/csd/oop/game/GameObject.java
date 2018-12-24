@@ -1,6 +1,8 @@
 package eg.edu.alexu.csd.oop.game;
 
 
+import eg.edu.alexu.csd.oop.game.object.shape.Shape;
+
 public interface GameObject{
 	/** setter/getter for X position*/
 	int getX();
@@ -16,4 +18,5 @@ public interface GameObject{
 	boolean isVisible();
 	/** @return object movement frames */
 	java.awt.image.BufferedImage[] getSpriteImages();
+	Shape clone();
 }

@@ -54,5 +54,6 @@ public abstract class Shape extends GameObjectImp {
     }
 
     public abstract Object getName();
+    public abstract Shape clone();
 }
 

@@ -13,6 +13,9 @@ public class FreeFall extends AbstractShapeState {
         super(new MovingVertical((int) (Math.random() * InitialWorld.img.getWidth()), 10));
 
     }
+    public FreeFall(int x, int y) {
+    	super(new MovingVertical(x, y));
+    }
 
     // Algorithm
     @Override

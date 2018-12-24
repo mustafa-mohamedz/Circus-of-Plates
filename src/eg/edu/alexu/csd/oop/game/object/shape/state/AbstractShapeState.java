@@ -5,9 +5,13 @@ import eg.edu.alexu.csd.oop.game.object.shape.Shape;
 
 
 public abstract class AbstractShapeState implements ShapeState {
-	
+
+	public MovingStrategy getMovingStrategy() {
+		return movingStrategy;
+	}
+
 	protected MovingStrategy movingStrategy;
-	
+
 	public AbstractShapeState(MovingStrategy movingStrategy) {
 		this.movingStrategy = movingStrategy;
 	}

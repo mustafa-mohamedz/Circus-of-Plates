@@ -7,11 +7,11 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 import eg.edu.alexu.csd.oop.game.Log;
-import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
 
 public class PlateFactory implements AbstractFactory {
 	private BufferedImage[][] plateImages;
 	private String[] colors;
+	private static String plateClassName = "eg.edu.alexu.csd.oop.game.object.shape.Plate";
 
 	public PlateFactory() {
 		try {
@@ -32,7 +32,8 @@ public class PlateFactory implements AbstractFactory {
 	@Override
 	public Shape getRandomShape() {
 		int colorId = (int) (Math.random() * 3);
-		Shape RandomPlate = new Plate(plateImages[colorId], colors[colorId]);
+		Shape RandomPlate = DynamicLinkageShape.load(plateClassName, plateImages[colorId], colors[colorId]);
+		//Shape RandomPlate = new Plate(plateImages[colorId], colors[colorId]);
 		Log.getLoggeer().info("Create "+ (String) RandomPlate.getName());
 		return RandomPlate;
 	}
