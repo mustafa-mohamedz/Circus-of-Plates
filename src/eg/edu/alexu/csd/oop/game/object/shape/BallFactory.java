@@ -1,7 +1,6 @@
 package eg.edu.alexu.csd.oop.game.object.shape;
 
 import eg.edu.alexu.csd.oop.game.Log;
-import eg.edu.alexu.csd.oop.game.object.GameObjectImp;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -11,6 +10,8 @@ import java.io.IOException;
 public class BallFactory implements AbstractFactory {
     protected BufferedImage[][] ballImages;
     private String [] color;
+	private static String ballClassName = "eg.edu.alexu.csd.oop.game.object.shape.Ball";
+
 
     public BallFactory() {
         try {
@@ -30,7 +31,8 @@ public class BallFactory implements AbstractFactory {
     @Override
     public Shape getRandomShape() {
     	int colorId = (int) (Math.random() * 3);
-        Shape RandomBall = new Ball(ballImages[colorId], color[colorId]);
+		Shape RandomBall = DynamicLinkageShape.load(ballClassName, ballImages[colorId], color[colorId]);
+        //Shape RandomBall = new Ball(ballImages[colorId], color[colorId]);
 		Log.getLoggeer().info("Create "+ (String) RandomBall.getName());
         return RandomBall;
     }

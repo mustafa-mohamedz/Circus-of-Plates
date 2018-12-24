@@ -29,7 +29,7 @@
                   <Font name="Berlin Sans FB Demi Bold" size="17.0" />
                </font>
             </Button>
-            <Button fx:id="exit" layoutX="423.0" layoutY="282.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: #376C6C; -fx-background-radius: 15;" text="Exit" textFill="WHITE">
+            <Button fx:id="exit" layoutX="423.0" layoutY="282.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: #da1a1a; -fx-background-radius: 15;" text="Exit" textFill="WHITE">
                <font>
                   <Font name="Berlin Sans FB Demi Bold" size="17.0" />
                </font>
