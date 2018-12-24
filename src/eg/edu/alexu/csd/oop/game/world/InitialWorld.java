@@ -1,15 +1,16 @@
 package eg.edu.alexu.csd.oop.game.world;
 
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.imageio.ImageIO;
 
+import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.STATIC_VARS;
+import eg.edu.alexu.csd.oop.game.Snapshot;
 import eg.edu.alexu.csd.oop.game.World;
 import eg.edu.alexu.csd.oop.game.object.*;
 import eg.edu.alexu.csd.oop.game.object.shape.AbstractFactory;
@@ -45,7 +46,7 @@ public class InitialWorld implements World {
         }
     }
 
-    public InitialWorld(int width, int height,LevelDifficulty difficulty, Observable observable) {
+    public InitialWorld(int width, int height, LevelDifficulty difficulty, Observable observable) {
         time = System.currentTimeMillis();
         this.observable = observable;
         this.observable.add(this);
@@ -150,10 +151,31 @@ public class InitialWorld implements World {
     public void update(int score) {
         this.score = score;
     }
+
     private boolean isGameOver() {
-		return Clown.getClown().getRightMaxY()<=25 || Clown.getClown().getLeftMaxY()<=25 ;
-    	
+        return Clown.getClown().getRightMaxY() <= 25 || Clown.getClown().getLeftMaxY() <= 25;
+
     }
 
+    public Snapshot getState() {
+        Snapshot snapshot = new Snapshot();
+        snapshot.setConstantObjects(constantObjects);
+        snapshot.setMovableObjects(movableObjects);
+        snapshot.setControlableObjects(controlableObjects);
+        snapshot.setOnRightStick(onRightStick);
+        snapshot.setOnLeftStick(onLeftStick);
+        snapshot.setTime((System.currentTimeMillis() - time));
+        snapshot.setScore(score);
+        return snapshot;
+    }
 
+    public void setState(Snapshot snapshot) {
+        constantObjects = snapshot.getConstantObjects();
+        controlableObjects = snapshot.getControlableObjects();
+        movableObjects = snapshot.getMovableObjects();
+        onRightStick = snapshot.getOnRightStick();
+        onLeftStick = snapshot.getOnLeftStick();
+        time += snapshot.getTime();
+        score = snapshot.getScore();
+    }
 }
