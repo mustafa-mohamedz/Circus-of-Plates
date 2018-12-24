@@ -173,7 +173,7 @@ public class InitialWorld implements World {
         movableObjects = snapshot.getMovableObjects();
         onRightStick = snapshot.getOnRightStick();
         onLeftStick = snapshot.getOnLeftStick();
-        time += snapshot.getTime();
+        time = System.currentTimeMillis() - snapshot.getTime();
         score = snapshot.getScore();
     }
 }
