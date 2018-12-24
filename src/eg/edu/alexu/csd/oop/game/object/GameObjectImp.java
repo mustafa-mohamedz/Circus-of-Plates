@@ -5,6 +5,7 @@ import java.awt.image.BufferedImage;
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingHorizontal;
 import eg.edu.alexu.csd.oop.game.object.movingStrategy.MovingStrategy;
+import eg.edu.alexu.csd.oop.game.object.shape.Shape;
 
 public class GameObjectImp implements GameObject {
 
@@ -56,6 +57,11 @@ public class GameObjectImp implements GameObject {
     public BufferedImage[] getSpriteImages() {
         return spriteImages;
 
+    }
+
+    @Override
+    public Shape clone() {
+        return null;
     }
 
     //TODO not in interface

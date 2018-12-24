@@ -161,9 +161,9 @@ public class InitialWorld implements World {
         Snapshot snapshot = new Snapshot();
         snapshot.setConstantObjects(constantObjects);
         snapshot.setMovableObjects(movableObjects);
-        snapshot.setControlableObjects(controlableObjects);
         snapshot.setOnRightStick(onRightStick);
         snapshot.setOnLeftStick(onLeftStick);
+        snapshot.setControlableObjects();
         snapshot.setTime((System.currentTimeMillis() - time));
         snapshot.setScore(score);
         return snapshot;
