@@ -45,6 +45,7 @@ public class Main {
         menuBar.add(menu);
         MakeSounds.play("src/Images/sound.wav");
         final Snapshot[] snapshot = {new Snapshot()};
+        final boolean[] snapShotIsActive = {false};
         InitialWorld initialWorld = new InitialWorld(InitialWorld.img.getWidth(), InitialWorld.img.getHeight(), new EasyLevel(), new Observable());
         final GameController[] gameController = {GameEngine.start("Circus Of Plates", initialWorld, menuBar, Color.BLACK)};
         Log.getLoggeer().info("Start Game");
@@ -66,14 +67,20 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 snapshot[0] = initialWorld.getState();
+                snapShotIsActive[0] = true;
                 Log.getLoggeer().info("Check Point Saved");
             }
         });
         loadCheckPointMenuItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                initialWorld.setState(snapshot[0]);
-                Log.getLoggeer().info("Check Point Loaded");
+                if(snapShotIsActive[0]) {
+                    initialWorld.setState(snapshot[0]);
+                    Log.getLoggeer().info("Check Point Loaded");
+                    snapShotIsActive[0] = false;
+                } else {
+                    Log.getLoggeer().info("Couldn't Load Check Point");
+                }
             }
         });
 
