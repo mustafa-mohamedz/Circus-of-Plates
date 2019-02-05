@@ -5,11 +5,9 @@ import java.util.List;
 
 import eg.edu.alexu.csd.oop.game.GameObject;
 import eg.edu.alexu.csd.oop.game.Log;
-import eg.edu.alexu.csd.oop.game.MakeSounds;
+import eg.edu.alexu.csd.oop.game.SoundPlayer;
 import eg.edu.alexu.csd.oop.game.World;
 import eg.edu.alexu.csd.oop.game.object.shape.Shape;
-
-import org.omg.CORBA.portable.ObjectImpl;
 
 public class Observable {
     private List<World> observers = new ArrayList<>();
@@ -53,7 +51,7 @@ public class Observable {
         if (counter == this.counter) {
     		Log.getLoggeer().info("Player got point");
             score++;
-            MakeSounds.play("src/Images/pop.wav");
+            SoundPlayer.play("src/Images/pop.wav");
             return true;
         }
         return false;
